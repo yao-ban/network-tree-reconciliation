@@ -11,10 +11,10 @@ Usage:
 
 This produces a species tree via a pure birth process with birth rate `Srate` (a macro defined in the code, defaulting to 1). The tree is output in the format:
 
-```
+`
 <number of nodes> 1
 <lines>
-```
+`
 
 where each line represents one node in bottom-up order, in the format:
 
@@ -49,9 +49,7 @@ The network is output in the format:
 
 where each line represents one node in bottom-up order, in the format:
 
-```
-<node id> <type> <id of parent> <id of second parent if a reticulation> <label if a leaf> <breakpoint if a reticulation>
-```
+`<node id> <type> <id of parent> <id of second parent if a reticulation> <label if a leaf> <breakpoint if a reticulation>`
 
 Then a reconciliation is output in the format:
 
