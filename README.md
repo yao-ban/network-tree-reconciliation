@@ -11,10 +11,10 @@ Usage:
 
 This produces a species tree via a pure birth process with birth rate `Srate` (a macro defined in the code, defaulting to 1). The tree is output in the format:
 
-`
+```
 <number of nodes> 1
 <lines>
-`
+```
 
 where each line represents one node in bottom-up order, in the format:
 
@@ -59,9 +59,7 @@ Then a reconciliation is output in the format:
 
 where each line represents the mapping of one gene node in id order, in the format:
 
-```
-<gene node id> <species node id> <event type>
-```
+`<gene node id> <species node id> <event type>`
 
 Details:
 
@@ -88,9 +86,7 @@ The reconciliation is output in the format:
 
 where each line represents the mapping of one gene node in id order, in the format:
 
-```
-<gene node id> <species node id> <event type>
-```
+`<gene node id> <species node id> <event type>`
 
 Details:
 
@@ -131,7 +127,7 @@ Usage:
 python3 simulate.py
 ```
 
-This runs `wrapper` for the range of parameters shown in the paper.
+This runs `wrapper.py` for the range of parameters shown in the paper.
 
 ### process.py
 
@@ -143,9 +139,7 @@ python3 process.py
 
 This opens all `results/results-*.txt` files and amalgamates them into the single file `results/results.csv`. Each line is copied as
 
-```
-<line>, <D rate>, <L rate>, <R rate>
-```
+`<line>, <D rate>, <L rate>, <R rate>`
 
 ### analysis.R
 
