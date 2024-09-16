@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Network tree reconciliation
+title: An efficient algorithm for the reconciliation of a gene network and species tree
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
