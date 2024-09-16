@@ -1,0 +1,25 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Network tree reconciliation
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Yao-ban
+    family-names: Chan
+    email: yaoban@unimelb.edu.au
+    affiliation: The University of Melbourne
+    orcid: 'https://orcid.org/0000-0002-8425-8775'
+repository-code: 'https://github.com/yao-ban/network-tree-reconciliation'
+abstract: >-
+  Supplementary material for the paper "An efficient
+  algorithm for the reconciliation of a gene network and
+  species tree"
+keywords:
+  - Reconciliation
+  - Phylogenetic network
+  - Paralog exchange
+license: GPL-3.0
