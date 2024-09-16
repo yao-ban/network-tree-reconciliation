@@ -1,0 +1,4291 @@
+{
+  "config": {
+    "clientUrl": "https://smw.dsw.elixir-europe.org/wizard"
+  },
+  "document": {
+    "createdAt": "2024-09-16T08:39:04.987043141Z",
+    "createdBy": {
+      "active": true,
+      "affiliation": null,
+      "createdAt": "2024-09-16T08:15:07.419477076Z",
+      "email": "yaoban@unimelb.edu.au",
+      "firstName": "Yao-Ban",
+      "imageUrl": null,
+      "lastName": "Chan",
+      "permissions": [
+        "PM_READ_PERM",
+        "QTN_PERM",
+        "DOC_TML_READ_PERM",
+        "SUBM_PERM"
+      ],
+      "role": "researcher",
+      "sources": [
+        "ls-login"
+      ],
+      "updatedAt": "2024-09-16T08:15:07.419477076Z",
+      "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+    },
+    "documentTemplateId": "dsw:questionnaire-report:2.12.0",
+    "formatUuid": "d3e98eb6-344d-481f-8e37-6a67b6cd1ad2",
+    "name": "Network tree reconciliation",
+    "uuid": "23a5a0e9-4d7f-4c37-8926-93c6840adb78"
+  },
+  "extras": {},
+  "groups": [],
+  "knowledgeModel": {
+    "annotations": [],
+    "chapterUuids": [
+      "6230f637-cf55-4055-b2e7-6cde6711aa51",
+      "047af6eb-71b6-48f0-9899-1b0feb66218b",
+      "968db515-1a6d-4518-97fa-810a9fca7dff",
+      "c66003a5-1a4d-49ea-8f3b-c31321e7956e",
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c",
+      "7426b2df-f9ed-4e65-a978-5995183e4e63",
+      "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf"
+    ],
+    "entities": {
+      "answers": {
+        "02173107-55dd-401b-ba01-d54e69ac63b2": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (manual)",
+          "metricMeasures": [],
+          "uuid": "02173107-55dd-401b-ba01-d54e69ac63b2"
+        },
+        "0228ec7c-5088-4b60-a027-db009091df3e": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (manual)",
+          "metricMeasures": [],
+          "uuid": "0228ec7c-5088-4b60-a027-db009091df3e"
+        },
+        "0240ff92-dc65-4223-926b-87d52ae61e25": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "6d08f13e-ea96-42b1-8342-baa7385b9b85"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "0240ff92-dc65-4223-926b-87d52ae61e25"
+        },
+        "068bea77-9871-4524-a4d6-f084906135b1": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "4750b225-3710-40b1-bde4-1a577a1620fa"
+          ],
+          "label": "Docstring/comments in the source code",
+          "metricMeasures": [],
+          "uuid": "068bea77-9871-4524-a4d6-f084906135b1"
+        },
+        "0d1a8ff0-a566-499a-afb4-59c406de1792": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "0d1a8ff0-a566-499a-afb4-59c406de1792"
+        },
+        "1710d673-ccaa-4108-aa76-a9923206771f": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (automatic)",
+          "metricMeasures": [],
+          "uuid": "1710d673-ccaa-4108-aa76-a9923206771f"
+        },
+        "176db8d1-932f-4924-a796-5d67e70eae9e": {
+          "advice": "More information on SemVer [on the official website](https://semver.org/)",
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Semantic Versioning (SemVer)",
+          "metricMeasures": [],
+          "uuid": "176db8d1-932f-4924-a796-5d67e70eae9e"
+        },
+        "19e1ec51-851d-4e9e-8916-71102e446d35": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "cd40edd5-4d47-4e1b-8e38-18e87475df9e"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "19e1ec51-851d-4e9e-8916-71102e446d35"
+        },
+        "1a5e79fd-fc09-45a5-a645-f5aa42c5ed54": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "1a5e79fd-fc09-45a5-a645-f5aa42c5ed54"
+        },
+        "1adcb956-d930-48f8-b0f0-9bd41ffbdc0b": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "f55c998a-eb42-4a8e-9860-7fbb5bfb9118"
+          ],
+          "label": "Other",
+          "metricMeasures": [],
+          "uuid": "1adcb956-d930-48f8-b0f0-9bd41ffbdc0b"
+        },
+        "1f552cf1-0e79-40a8-a91a-47920312f95b": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "1f552cf1-0e79-40a8-a91a-47920312f95b"
+        },
+        "231aad58-ef10-4b2e-9764-e2b36a4c173b": {
+          "advice": "This response implies that the software employs standard formats for input.",
+          "annotations": [],
+          "followUpUuids": [
+            "a3336d26-a3ad-40c4-8694-e0d50f766001"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "231aad58-ef10-4b2e-9764-e2b36a4c173b"
+        },
+        "23da4a6a-a7bf-4b88-8ee4-7c024f60d8e8": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "23da4a6a-a7bf-4b88-8ee4-7c024f60d8e8"
+        },
+        "2736b675-baed-463d-a42a-87f6f6b5f136": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "2736b675-baed-463d-a42a-87f6f6b5f136"
+        },
+        "27efa00f-b9d4-4134-9d36-e29f9037f9fb": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "dc7b8ef8-aa1d-4abf-9a12-f3bbf52f59af"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "27efa00f-b9d4-4134-9d36-e29f9037f9fb"
+        },
+        "28e8fced-58f7-4cf8-ac3d-56e9e7067479": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "28e8fced-58f7-4cf8-ac3d-56e9e7067479"
+        },
+        "2af6b498-d046-49b5-86fa-a9594d82982c": {
+          "advice": "This response implies that the software employs standard formats for output.",
+          "annotations": [],
+          "followUpUuids": [
+            "0e3a3e2c-c5ae-4a68-8328-7f3f9aa4ca4c"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "2af6b498-d046-49b5-86fa-a9594d82982c"
+        },
+        "2fc0bdb8-2e48-4598-91b9-5cb71f03e152": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "2fc0bdb8-2e48-4598-91b9-5cb71f03e152"
+        },
+        "3100dfe6-ef85-4206-9d3e-11e8c32f7637": {
+          "advice": null,
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/conditionsOfAccess"
+            }
+          ],
+          "followUpUuids": [
+            "4a56b2d9-151e-479b-93a3-dfe45d599f3b"
+          ],
+          "label": "Other",
+          "metricMeasures": [],
+          "uuid": "3100dfe6-ef85-4206-9d3e-11e8c32f7637"
+        },
+        "3333ca27-a5a8-4be1-8e05-96ce1c2dbca6": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "3333ca27-a5a8-4be1-8e05-96ce1c2dbca6"
+        },
+        "35e8e4ec-f81c-4225-8bb0-53fd682ebfa5": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "35e8e4ec-f81c-4225-8bb0-53fd682ebfa5"
+        },
+        "36dad341-a66a-4696-af12-b373b78dd419": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "36dad341-a66a-4696-af12-b373b78dd419"
+        },
+        "3db765d0-7a33-4a67-a099-070e39d6cf9d": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Not applicable",
+          "metricMeasures": [],
+          "uuid": "3db765d0-7a33-4a67-a099-070e39d6cf9d"
+        },
+        "42218360-afc6-4ae5-84d1-1315231bd702": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Android",
+          "metricMeasures": [],
+          "uuid": "42218360-afc6-4ae5-84d1-1315231bd702"
+        },
+        "440dcbaf-efc4-4a25-98a7-572f5c946b67": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "440dcbaf-efc4-4a25-98a7-572f5c946b67"
+        },
+        "463c3b6e-cf96-43e5-a189-f840f7ea93db": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "463c3b6e-cf96-43e5-a189-f840f7ea93db"
+        },
+        "4757e7bb-10f9-43db-81ec-83fd1e8b1c4e": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "2e7b3806-3bd6-4fa0-bad3-2b23be328f1d"
+          ],
+          "label": "README file",
+          "metricMeasures": [],
+          "uuid": "4757e7bb-10f9-43db-81ec-83fd1e8b1c4e"
+        },
+        "487f0853-9722-47f5-b8d0-e6fe4d8ddd42": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Please specify the name of the operating system",
+          "metricMeasures": [],
+          "uuid": "487f0853-9722-47f5-b8d0-e6fe4d8ddd42"
+        },
+        "550d307b-1620-4b45-8af9-025648d310e9": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "550d307b-1620-4b45-8af9-025648d310e9"
+        },
+        "58a790bc-2e4c-4ce9-b719-b73e23180f33": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "58a790bc-2e4c-4ce9-b719-b73e23180f33"
+        },
+        "604e573a-ad58-45ec-bcff-d6fa0313f2c8": {
+          "advice": "More information on CalVer [on the official website](https://calver.org/)",
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Calendar Versioning (CalVer)",
+          "metricMeasures": [],
+          "uuid": "604e573a-ad58-45ec-bcff-d6fa0313f2c8"
+        },
+        "60be8bc6-5b99-423d-8753-47e84017b94d": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "60be8bc6-5b99-423d-8753-47e84017b94d"
+        },
+        "6268068b-e917-49a5-9926-235a5249a702": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "6268068b-e917-49a5-9926-235a5249a702"
+        },
+        "65a96f96-109a-4f90-883f-843d19d8ac45": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "65a96f96-109a-4f90-883f-843d19d8ac45"
+        },
+        "6cef5f87-f088-4431-95ee-6a2cbb2432c7": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "6cef5f87-f088-4431-95ee-6a2cbb2432c7"
+        },
+        "6f85e7b0-c1d1-490c-94d4-7724bd550a4a": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "6f85e7b0-c1d1-490c-94d4-7724bd550a4a"
+        },
+        "71494549-f9aa-484c-a2d5-19e7046f44b6": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "iOS",
+          "metricMeasures": [],
+          "uuid": "71494549-f9aa-484c-a2d5-19e7046f44b6"
+        },
+        "7379f022-f382-4565-a70d-b68fbcdec7ba": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "7379f022-f382-4565-a70d-b68fbcdec7ba"
+        },
+        "7482e4bd-3e99-4372-8363-3b3fec03288b": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (manual)",
+          "metricMeasures": [],
+          "uuid": "7482e4bd-3e99-4372-8363-3b3fec03288b"
+        },
+        "766974e9-6ce4-47b1-a585-dd66759fa450": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "766974e9-6ce4-47b1-a585-dd66759fa450"
+        },
+        "7832c332-6862-4c2c-8054-2e41bd71bc30": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (manual)",
+          "metricMeasures": [],
+          "uuid": "7832c332-6862-4c2c-8054-2e41bd71bc30"
+        },
+        "79ce8b73-cd5e-4624-9de5-a9dd05e49b2a": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "New answer",
+          "metricMeasures": [],
+          "uuid": "79ce8b73-cd5e-4624-9de5-a9dd05e49b2a"
+        },
+        "7be00246-4ea7-4522-ae40-51e917679dc0": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "f4e377f4-fe0a-4d56-bc49-7fe835fa78b5"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "7be00246-4ea7-4522-ae40-51e917679dc0"
+        },
+        "7c335f91-e191-452d-80cb-9981721aded5": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "7c335f91-e191-452d-80cb-9981721aded5"
+        },
+        "82a3197b-fbb0-425c-b998-d8cbce839ab1": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "962660d4-46fc-46f6-809a-ae5f41ce47cf"
+          ],
+          "label": "Other",
+          "metricMeasures": [],
+          "uuid": "82a3197b-fbb0-425c-b998-d8cbce839ab1"
+        },
+        "86e7d3ff-99ad-4ba9-80b5-a3246accb1f6": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "86e7d3ff-99ad-4ba9-80b5-a3246accb1f6"
+        },
+        "87f970dd-a71c-4e8b-b781-645c59d2679f": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (automatic)",
+          "metricMeasures": [],
+          "uuid": "87f970dd-a71c-4e8b-b781-645c59d2679f"
+        },
+        "8b65b5e0-c9af-4a6d-a4ab-8ce31c46274d": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "8b65b5e0-c9af-4a6d-a4ab-8ce31c46274d"
+        },
+        "8c11a2c5-2d41-4e1a-89f4-82e498a84c85": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "1d6cdc34-691d-461b-a46d-f6df7fa26255"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "8c11a2c5-2d41-4e1a-89f4-82e498a84c85"
+        },
+        "8ec53615-8c1b-41c6-aafe-0fcd4e702204": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (automatic)",
+          "metricMeasures": [],
+          "uuid": "8ec53615-8c1b-41c6-aafe-0fcd4e702204"
+        },
+        "90804a62-68b5-41ea-8d81-7aeeb168dc11": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "311b414b-3b46-4951-9da6-36377e7b1a1a"
+          ],
+          "label": "Other",
+          "metricMeasures": [],
+          "uuid": "90804a62-68b5-41ea-8d81-7aeeb168dc11"
+        },
+        "93a8989f-7c3f-42ff-b03c-0ace776d3e57": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "93a8989f-7c3f-42ff-b03c-0ace776d3e57"
+        },
+        "978c2fd8-96ed-4464-8244-6e00892664e4": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "978c2fd8-96ed-4464-8244-6e00892664e4"
+        },
+        "9c024864-8b7d-4219-b53d-4a2454819304": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "9c024864-8b7d-4219-b53d-4a2454819304"
+        },
+        "9d5531e5-2ec7-4e07-8785-2191c3a823eb": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "9d5531e5-2ec7-4e07-8785-2191c3a823eb"
+        },
+        "9e917495-e064-4961-b6e8-4c873c696656": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "9e917495-e064-4961-b6e8-4c873c696656"
+        },
+        "a031948f-7831-4169-8b8e-bd8bad4b7513": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "a031948f-7831-4169-8b8e-bd8bad4b7513"
+        },
+        "a0ec295c-5eaa-4ff9-889e-5c794787b370": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "79f1ef3f-6bee-406d-bc45-8b7685525c37"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "a0ec295c-5eaa-4ff9-889e-5c794787b370"
+        },
+        "a122be0e-bf60-4384-9914-dfb77c80e5b8": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "MacOS / Darwin",
+          "metricMeasures": [],
+          "uuid": "a122be0e-bf60-4384-9914-dfb77c80e5b8"
+        },
+        "a1f80749-f059-4bcf-a83a-225f579804d2": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "a1f80749-f059-4bcf-a83a-225f579804d2"
+        },
+        "a2b15c6f-4675-4adb-b55f-37ee2dbfb89c": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "a2b15c6f-4675-4adb-b55f-37ee2dbfb89c"
+        },
+        "ac049c0d-593e-4d60-9fda-b505a62f0ee9": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "ac049c0d-593e-4d60-9fda-b505a62f0ee9"
+        },
+        "adfa7d9d-2825-478d-8a02-0c09bb33f468": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "adfa7d9d-2825-478d-8a02-0c09bb33f468"
+        },
+        "af22477a-854e-49bf-b863-b8d108f2391e": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Microsoft Windows",
+          "metricMeasures": [],
+          "uuid": "af22477a-854e-49bf-b863-b8d108f2391e"
+        },
+        "b53b28f8-d996-4293-86da-35c67d902560": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "86fe3ac8-b254-4f8c-981d-591919580602"
+          ],
+          "label": "Release notes",
+          "metricMeasures": [],
+          "uuid": "b53b28f8-d996-4293-86da-35c67d902560"
+        },
+        "b58c3e29-f373-4121-bfe1-7878b53aa656": {
+          "advice": "Publicly available (e.g. GitHub, via URL, etc.)",
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/isAccessibleForFree"
+            }
+          ],
+          "followUpUuids": [
+            "843c467a-de1c-475c-9b01-aec90a318716"
+          ],
+          "label": "Publicly available (e.g. GitHub, via URL, etc.)",
+          "metricMeasures": [],
+          "uuid": "b58c3e29-f373-4121-bfe1-7878b53aa656"
+        },
+        "b62bb0f8-d9b2-4f8a-a13e-7e8572ba94a7": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "b62bb0f8-d9b2-4f8a-a13e-7e8572ba94a7"
+        },
+        "b7aa70a5-06aa-4344-954a-d25f40efd2ee": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (automatic)",
+          "metricMeasures": [],
+          "uuid": "b7aa70a5-06aa-4344-954a-d25f40efd2ee"
+        },
+        "b7e953dd-b32e-4318-baad-9c3dd3c2deb2": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "b7e953dd-b32e-4318-baad-9c3dd3c2deb2"
+        },
+        "b9181fac-560d-4e41-83c5-c9ea242abc44": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Not Applicable",
+          "metricMeasures": [],
+          "uuid": "b9181fac-560d-4e41-83c5-c9ea242abc44"
+        },
+        "bda41a33-5316-4b29-aa14-f6ea0ef86129": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "93b4c33e-2f4b-4b06-b024-740f77e5e341"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "bda41a33-5316-4b29-aa14-f6ea0ef86129"
+        },
+        "c0c5bd41-0709-4d65-954e-7e137adb6b88": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "b782084a-ce32-41cf-a032-9c6405afdda1"
+          ],
+          "label": "CHANGELOG",
+          "metricMeasures": [],
+          "uuid": "c0c5bd41-0709-4d65-954e-7e137adb6b88"
+        },
+        "c110415c-76bb-446a-b6ef-118b5140b895": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "6fbc58e0-5eca-48eb-9539-5f75d43bd4d0"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "c110415c-76bb-446a-b6ef-118b5140b895"
+        },
+        "c3814f86-b95f-43a6-adf9-7678d692d3c3": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "c3814f86-b95f-43a6-adf9-7678d692d3c3"
+        },
+        "c5af3691-bd28-437b-bf4d-59c49d600c22": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "c5af3691-bd28-437b-bf4d-59c49d600c22"
+        },
+        "c6968a35-a3b1-47ad-8de6-53cf2362fe21": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "c6968a35-a3b1-47ad-8de6-53cf2362fe21"
+        },
+        "c6df8fa4-f93c-4440-9d66-f1e138d286e3": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (automatic)",
+          "metricMeasures": [],
+          "uuid": "c6df8fa4-f93c-4440-9d66-f1e138d286e3"
+        },
+        "c80ad2f2-c187-4fba-93c4-0898bccf2d39": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "fdfcc19b-197f-406f-b9ba-dea60de2dcc8"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "c80ad2f2-c187-4fba-93c4-0898bccf2d39"
+        },
+        "ca593cef-8c0f-451d-ae46-62e3a2558b17": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "ca593cef-8c0f-451d-ae46-62e3a2558b17"
+        },
+        "cb5edd7b-a01f-455f-ac82-08fa30a82885": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Not applicable",
+          "metricMeasures": [],
+          "uuid": "cb5edd7b-a01f-455f-ac82-08fa30a82885"
+        },
+        "cc374e44-8a3a-4238-868f-5c1af71096f3": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "cc374e44-8a3a-4238-868f-5c1af71096f3"
+        },
+        "cdefafc7-48f4-4a1e-ac88-dba2638cf84e": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "cdefafc7-48f4-4a1e-ac88-dba2638cf84e"
+        },
+        "ceec355e-3c3d-4960-80b9-7413a321da42": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Not applicable",
+          "metricMeasures": [],
+          "uuid": "ceec355e-3c3d-4960-80b9-7413a321da42"
+        },
+        "cf21adeb-d23a-426e-9a8b-fe6a7b6bf3db": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "a2d1cf7f-a977-4728-9e0b-f9c4d5a46093"
+          ],
+          "label": "API documentation",
+          "metricMeasures": [],
+          "uuid": "cf21adeb-d23a-426e-9a8b-fe6a7b6bf3db"
+        },
+        "d17cbf5c-fab8-443f-9cef-a2de54dfcc3c": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "d17cbf5c-fab8-443f-9cef-a2de54dfcc3c"
+        },
+        "d43364dc-6bbf-48f6-b06f-5453dbbcb008": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (manual)",
+          "metricMeasures": [],
+          "uuid": "d43364dc-6bbf-48f6-b06f-5453dbbcb008"
+        },
+        "d47368e2-62be-4bbb-b029-11f1beec9ccf": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (automatic)",
+          "metricMeasures": [],
+          "uuid": "d47368e2-62be-4bbb-b029-11f1beec9ccf"
+        },
+        "d488fe17-df1a-4583-8829-fc0d0f02aeec": {
+          "advice": "Yes",
+          "annotations": [],
+          "followUpUuids": [
+            "327b65c4-3782-4b93-adb0-6db7b9f19e84"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "d488fe17-df1a-4583-8829-fc0d0f02aeec"
+        },
+        "d6ffcac2-0f68-4338-814f-bc83d1b9aa24": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "d6ffcac2-0f68-4338-814f-bc83d1b9aa24"
+        },
+        "d7ae8afe-aa93-4615-802e-7866f56ce11b": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (manual)",
+          "metricMeasures": [],
+          "uuid": "d7ae8afe-aa93-4615-802e-7866f56ce11b"
+        },
+        "d8112873-338e-4557-87e6-726b1df44d50": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "d8112873-338e-4557-87e6-726b1df44d50"
+        },
+        "d8d20fd2-c64f-4a8c-b0ca-6d6185630a35": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "2db46369-4482-4a63-af2f-f65d4885c11d"
+          ],
+          "label": "User documentation",
+          "metricMeasures": [],
+          "uuid": "d8d20fd2-c64f-4a8c-b0ca-6d6185630a35"
+        },
+        "d9f7414a-7e1e-48bb-8d48-2e8874543890": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "ChromeOS",
+          "metricMeasures": [],
+          "uuid": "d9f7414a-7e1e-48bb-8d48-2e8874543890"
+        },
+        "e01ab722-a9ab-4e7e-b037-d5e192273f11": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "e01ab722-a9ab-4e7e-b037-d5e192273f11"
+        },
+        "e08e06d3-db8b-47cc-9187-7148e3c75057": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Linux / Unix",
+          "metricMeasures": [],
+          "uuid": "e08e06d3-db8b-47cc-9187-7148e3c75057"
+        },
+        "e16becf2-21a4-4e79-92ea-b144a145c216": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "8f3a83fc-863f-45dd-8b89-f5f631cd1b96"
+          ],
+          "label": "Programmer's documentation",
+          "metricMeasures": [],
+          "uuid": "e16becf2-21a4-4e79-92ea-b144a145c216"
+        },
+        "e2438338-ebff-4704-98cc-9d5cd305838b": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "e2438338-ebff-4704-98cc-9d5cd305838b"
+        },
+        "e35fb049-2786-492d-9a97-d01c776390a0": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "ec962a2e-07a2-43ad-b997-9866899e0f36"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "e35fb049-2786-492d-9a97-d01c776390a0"
+        },
+        "e5862e8b-8bba-4667-9b48-f98dc22e2fd1": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "85d21afa-b7a3-4a84-bb9b-1d36620feac2"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "e5862e8b-8bba-4667-9b48-f98dc22e2fd1"
+        },
+        "e5a422a2-7fd0-4b2a-adb7-fdb9d1d66fbc": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "ab27129f-786d-4490-b758-2056404a5131"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "e5a422a2-7fd0-4b2a-adb7-fdb9d1d66fbc"
+        },
+        "e74d98db-9e06-4f0b-859c-b807767662b3": {
+          "advice": "This response implies that the software only employs custom formats for input and output.",
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "e74d98db-9e06-4f0b-859c-b807767662b3"
+        },
+        "e8eb9f45-8914-4458-aca9-8e5c0e51ddd0": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "9df8e198-dccd-4280-94a9-8b4db9b01eed"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "e8eb9f45-8914-4458-aca9-8e5c0e51ddd0"
+        },
+        "ec7be65a-cdfa-4d3c-b791-84809a154720": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "ec7be65a-cdfa-4d3c-b791-84809a154720"
+        },
+        "ed416906-5b88-404c-950c-74422e81696e": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [
+            "f8ae092b-55ac-486c-a90b-61328bfaa83f"
+          ],
+          "label": "Yes",
+          "metricMeasures": [],
+          "uuid": "ed416906-5b88-404c-950c-74422e81696e"
+        },
+        "ee80ac49-f46b-49cb-bfff-9d24387b52ed": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "ee80ac49-f46b-49cb-bfff-9d24387b52ed"
+        },
+        "f0a05169-d981-449a-a1be-93d444643225": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (automatic)",
+          "metricMeasures": [],
+          "uuid": "f0a05169-d981-449a-a1be-93d444643225"
+        },
+        "f1664b8c-569c-433d-ba76-69086657253c": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "None",
+          "metricMeasures": [],
+          "uuid": "f1664b8c-569c-433d-ba76-69086657253c"
+        },
+        "f644b549-ff55-42ec-b7d6-ace739d812ce": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "f644b549-ff55-42ec-b7d6-ace739d812ce"
+        },
+        "f7cea2cf-694d-4578-8af1-ff9a4018981d": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "f7cea2cf-694d-4578-8af1-ff9a4018981d"
+        },
+        "f911934c-a4c4-47d2-8630-2ead5c9105bd": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "f911934c-a4c4-47d2-8630-2ead5c9105bd"
+        },
+        "f9456ddc-e163-4510-8ef6-d314b1067f9d": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Yes (manual)",
+          "metricMeasures": [],
+          "uuid": "f9456ddc-e163-4510-8ef6-d314b1067f9d"
+        },
+        "fb09e051-afb5-44fa-98e6-8a772e7e4562": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "Not relevant/applicable to me",
+          "metricMeasures": [],
+          "uuid": "fb09e051-afb5-44fa-98e6-8a772e7e4562"
+        },
+        "fbe41b6b-d976-46b6-a686-5df9023e08b4": {
+          "advice": null,
+          "annotations": [],
+          "followUpUuids": [],
+          "label": "No",
+          "metricMeasures": [],
+          "uuid": "fbe41b6b-d976-46b6-a686-5df9023e08b4"
+        }
+      },
+      "chapters": {
+        "047af6eb-71b6-48f0-9899-1b0feb66218b": {
+          "annotations": [],
+          "questionUuids": [
+            "9e518fae-ea04-4574-b721-b05e97c2f92d",
+            "1b2706cc-38d8-479c-9341-d98e5e8df6a6",
+            "42227f44-024c-40df-b46b-43159dbbc4f9"
+          ],
+          "text": "Section regarding the **documentation** of the software",
+          "title": "Documentation",
+          "uuid": "047af6eb-71b6-48f0-9899-1b0feb66218b"
+        },
+        "6230f637-cf55-4055-b2e7-6cde6711aa51": {
+          "annotations": [],
+          "questionUuids": [
+            "56adb0ca-3e80-45fa-8fbe-1f3508d6032b",
+            "d86ca238-e2fc-41cf-b4ea-13dd903c0453",
+            "22c70672-edd2-46cd-a422-bb857bc46def"
+          ],
+          "text": "Section regarding the **accessibility** and **license** of the software",
+          "title": "Accessibility & License",
+          "uuid": "6230f637-cf55-4055-b2e7-6cde6711aa51"
+        },
+        "7426b2df-f9ed-4e65-a978-5995183e4e63": {
+          "annotations": [],
+          "questionUuids": [
+            "f55943d2-5c95-49b6-ba8f-a56ba76fc484",
+            "faa4ff6d-a2bc-4589-ae36-16d04fb1847c",
+            "e130053f-10fe-4364-b868-ea243d27f463",
+            "22f56a54-035f-46fb-9c2e-6f05a2ffc30e",
+            "4e393382-d411-4e58-8e0e-77de41c253e8",
+            "a9a73460-9416-41db-a0d2-42a10b3ff327",
+            "ec18c4ff-1f3e-444b-8d40-8ce2c1026bdb",
+            "09af0413-08ae-409f-be98-b11d84c88615",
+            "5bd60cac-4206-46d9-b3c3-5ac8bcf9e422",
+            "d0cf7900-28f4-447c-9d23-3fa010424233",
+            "ccf5634b-6279-409c-8b64-f617ee7f345a"
+          ],
+          "text": "Section regarding the **reproducibility** of the software",
+          "title": "Reproducibility",
+          "uuid": "7426b2df-f9ed-4e65-a978-5995183e4e63"
+        },
+        "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf": {
+          "annotations": [],
+          "questionUuids": [
+            "ac635be0-839d-4bb2-aa90-6eb2e80c2ed6",
+            "b362e7b1-d39f-4160-8e57-9fc5870263be",
+            "56c076d1-1f9d-4562-beb0-efa643df1dc7",
+            "53977216-eca7-4856-ab86-34f31fd3814f"
+          ],
+          "text": "Section regarding the **recognition** of the software",
+          "title": "Recognition",
+          "uuid": "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf"
+        },
+        "968db515-1a6d-4518-97fa-810a9fca7dff": {
+          "annotations": [],
+          "questionUuids": [
+            "d95ac6aa-e3b8-4591-a91f-f00c3193d5a7",
+            "b3c5ce60-1607-47d0-9c79-870350fa31a8"
+          ],
+          "text": "Section regarding the **testing** of the software",
+          "title": "Testing",
+          "uuid": "968db515-1a6d-4518-97fa-810a9fca7dff"
+        },
+        "c66003a5-1a4d-49ea-8f3b-c31321e7956e": {
+          "annotations": [],
+          "questionUuids": [
+            "78e2cd17-1d97-4a14-80f4-de6c9cac0ef7",
+            "d60fe27f-5fdc-4182-87de-17e8509aaef2",
+            "074948ac-4abb-4438-bd96-e420b10164f4"
+          ],
+          "text": "Section regarding the **interoperability** of the software",
+          "title": "Interoperability",
+          "uuid": "c66003a5-1a4d-49ea-8f3b-c31321e7956e"
+        },
+        "e4daf4a0-4024-4427-98e6-5e40fb21765c": {
+          "annotations": [],
+          "questionUuids": [
+            "9b590484-9b76-4a94-8fed-22dd33f7a302",
+            "23538b8f-de09-4143-98d5-a234ea5144b8"
+          ],
+          "text": "Section regarding the **versioning** of the software",
+          "title": "Versioning",
+          "uuid": "e4daf4a0-4024-4427-98e6-5e40fb21765c"
+        }
+      },
+      "choices": {
+        "11acba86-a616-4863-9bcc-00fff3e9c456": {
+          "annotations": [],
+          "label": "Microsoft Windows",
+          "uuid": "11acba86-a616-4863-9bcc-00fff3e9c456"
+        },
+        "1f9fa8fd-d740-48f2-a444-24fc84636d67": {
+          "annotations": [],
+          "label": "Virtual machine",
+          "uuid": "1f9fa8fd-d740-48f2-a444-24fc84636d67"
+        },
+        "2654ad93-762e-4e8e-84e8-6ff49561a43d": {
+          "annotations": [],
+          "label": "Container (e.g., docker, singularity, apptainer)",
+          "uuid": "2654ad93-762e-4e8e-84e8-6ff49561a43d"
+        },
+        "656b9730-55bb-48bc-96c0-0ef5a6c9f097": {
+          "annotations": [],
+          "label": "ChromeOS",
+          "uuid": "656b9730-55bb-48bc-96c0-0ef5a6c9f097"
+        },
+        "70ce5d3e-e04b-47f5-a141-1f1deb0fd668": {
+          "annotations": [],
+          "label": "Android",
+          "uuid": "70ce5d3e-e04b-47f5-a141-1f1deb0fd668"
+        },
+        "7115b3f7-e020-4b31-bd02-bec77a0417fe": {
+          "annotations": [],
+          "label": "New choice",
+          "uuid": "7115b3f7-e020-4b31-bd02-bec77a0417fe"
+        },
+        "7826a010-bc35-40fb-a8ff-55df22168bd6": {
+          "annotations": [],
+          "label": "iOS",
+          "uuid": "7826a010-bc35-40fb-a8ff-55df22168bd6"
+        },
+        "7adc308a-3461-489c-870a-9e3a946471d2": {
+          "annotations": [],
+          "label": "Linux / Unix",
+          "uuid": "7adc308a-3461-489c-870a-9e3a946471d2"
+        },
+        "9b52d98a-b382-4210-8479-e5b98e3a77ea": {
+          "annotations": [],
+          "label": "User documentation",
+          "uuid": "9b52d98a-b382-4210-8479-e5b98e3a77ea"
+        },
+        "b1b46285-5000-4727-8f4f-8da46b4b6179": {
+          "annotations": [],
+          "label": "MacOS / Darwin",
+          "uuid": "b1b46285-5000-4727-8f4f-8da46b4b6179"
+        },
+        "bc462c4c-633b-45d7-9064-d97dcffe5436": {
+          "annotations": [],
+          "label": "Documented dependencies",
+          "uuid": "bc462c4c-633b-45d7-9064-d97dcffe5436"
+        },
+        "e1b844d7-05d7-4031-98f6-740ddeebd560": {
+          "annotations": [],
+          "label": "Conda",
+          "uuid": "e1b844d7-05d7-4031-98f6-740ddeebd560"
+        }
+      },
+      "experts": {},
+      "integrations": {
+        "2454b6d9-8d94-4d14-a875-01f19f000774": {
+          "annotations": [],
+          "id": "ProgrammingLanguage",
+          "integrationType": "ApiIntegration",
+          "itemUrl": "https://example.com/${id}",
+          "logo": "",
+          "name": "Programming Language",
+          "props": [],
+          "requestBody": "",
+          "requestEmptySearch": true,
+          "requestHeaders": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            },
+            {
+              "key": "User-Agent",
+              "value": "wizard"
+            }
+          ],
+          "requestMethod": "GET",
+          "requestUrl": "https://query.wikidata.org/sparql?query=SELECT%20%3FlangLabel%20WHERE%20%7B%0A%20%20FILTER(regex(%3FlangLabel%2C%20%22${q}%22%2C%20%22i%22))%0A%20%20%7B%0A%20%20%20%20SELECT%20DISTINCT%20%3FlangLabel%20WHERE%20%7B%0A%20%20%20%20%20%20%7B%20SELECT%20DISTINCT%20%3Flang%20WHERE%20%7B%20%3Flang%20(wdt%3AP31%2F(wdt%3AP279*))%20wd%3AQ9143.%20%7D%20%7D%0A%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cen%22.%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0AORDER%20BY%20(%3FlangLabel)",
+          "responseItemId": "{{item.langLabel.value}}",
+          "responseItemTemplate": "{{item.langLabel.value}}",
+          "responseListField": "results.bindings",
+          "uuid": "2454b6d9-8d94-4d14-a875-01f19f000774"
+        },
+        "2a6d31d0-f090-4376-943b-4bb799818fcb": {
+          "annotations": [],
+          "id": "authors_with_orcid_wikidata",
+          "integrationType": "ApiIntegration",
+          "itemUrl": "${id}",
+          "logo": "NA",
+          "name": "Authors",
+          "props": [],
+          "requestBody": "",
+          "requestEmptySearch": true,
+          "requestHeaders": [],
+          "requestMethod": "GET",
+          "requestUrl": "https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%0A%20%20%7B%0A%20%20%20%20SELECT%20DISTINCT%20%3Fitem%20WHERE%20%7B%0A%20%20%20%20%20%20%3Fitem%20p%3AP496%20%3Fstatement0.%0A%20%20%20%20%20%20%3Fstatement0%20(ps%3AP496)%20_%3AanyValueP496.%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20p%3AP735%20%3Fstatement1.%0A%20%20%20%20%20%20%20%20%3Fstatement1%20(ps%3AP735%2F(wdt%3AP279*))%20wd%3AQ19833256.%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20UNION%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20p%3AP734%20%3Fstatement2.%0A%20%20%20%20%20%20%20%20%3Fstatement2%20(ps%3AP734%2F(wdt%3AP279*))%20wd%3AQ19833256.%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D",
+          "responseItemId": "{{item.itemLabel}}",
+          "responseItemTemplate": "{{item.itemLabel}}",
+          "responseListField": "",
+          "uuid": "2a6d31d0-f090-4376-943b-4bb799818fcb"
+        },
+        "2f99881b-5c88-4049-8325-c86fce010118": {
+          "annotations": [],
+          "id": "fairsharing",
+          "integrationType": "ApiIntegration",
+          "itemUrl": "https://fairsharing.org/${id}",
+          "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAAAoCAYAAABjEBEWAAAABGdBTUEAALGPC/xhBQAAEixJREFUeAHtnQl8VNW9x++ZSUIUkcUFlSQgWjcEnoKGgEJQnoqoyJJYpZanoriWh/pqba2fiNZq+6hrW+tKLSqEVVG0igI+dnDBpXV5bAlBWQUJhiQz977vbzJ3vJnMTHYTXuf/+fxy79n+59xzf+d//ufcOzfGSkpT9MCPUNITlIHXm0JhUkfsHkgZUrirfSDVmNjJsWNPyOyw78m+pjJ2alVs7kIn3dq9O12hRSM67k6UNzqNsimUPUTxCy/tsMcY48TIE9EfnaZwpS8QXHLJ4aWxysbK38i4iyk/GZSAjEbqaoni2VQ6DXwFhoFvQKuUlL1W6U6nwvHXp3Vr15VeSf6picqUbSuaD8sGK0/2rM3nrByVsTBRfm9a2Y7iYY7tzFVcv1cqjuKw1Zuu87Jtxfc5lnNbdLw3nF1YbGcXFn1lOdZqyzKzOrXLmPH6habcmyd5HuqBa/nbLYwLOL4EWqX4mqNVOTNLTnPJKv1OMHhrc9RTu07H5zhOF4h9qWPZf9tVWvTP7MJNZ9Ve7l8uxztcsWaxvYDB3XolxXGskDuAUzDJ50ut08iyD26zJdEl2U4gRFAUb6UXOmPdhg0oLDlxaX6XzxOVa0gadWxMMSmyCtXEtuw0xzA9O043SDuSdgzhWo/FRXiz36ySf18xqsvSagX+tQMvcvnLgAi7szV3RQpE5X5CKct8vXz0MZ81trE5hcVdgrZ9mfT4/GZs0LaepIasgBWcSNT1jdUfXZ7xVpFgIHwczv9nWVYu81Uutr0VDD533RqnR21+eHRd/8/DGw+E62tyl8Bx7J9x4akMgU+Wj876O8ulx0IdYayf5s7bcnhLdcrK/K5LfMZ3teqHtD/6aGNRDavcUm1L1lv3HmhSwuYWbjvENtZ1qt7nM4/o2M4c8hTTcCkkOajsu8ANimspWZGXOZu2bFb9ju07N047jiH+N2AF0KpZ+ReCJ0B/EEtCblVUQlfCBWAxWA++BFpI/gq0BXWRXDI9DFaCjaAYuG3pzXki+QmJmjG9rs+JhGVAVgFdoyu6LuUV0t1Iz7FfOE3pHcPxnThOAG+BL8BGoC29BwBuYJ3kKHLdDZYAXdtG8D/gTqA0STegeoWTUvjTZFJmlV2D697BMmYnlvUFKV6Q32nPmdM3PcfpLdDkpqHznd+15EqdBdiHtCWDRZiIGS2DiHgDRN+0LsTlgvFAN+g8kEjGkfhHkBaV6XjCw4HSRSgvmQhGZCBnD4HTIzHfn2jbLBdcC1SHZrRYImKJoNvCifR/iPyukRJpXTmYE+WVuOlVoaq/3nQ/UUPAdCDSekWD9AKgtl0PZoB4ojy6xujBKx1aGN8BtBuldY/btvRYjSO9/pJXGNoa04izfMb6y/L8zDJXS0qarK2xHUberr3FY9z4ljmG948dqyKq/iMJvwxEVlnCM8ChIBPoBv0O7AYifCK5gsSnQCXQTVXHjwW/Be6isxvnSmsHokV1vgJE1o1AhDwFKG8WuBAsAbp3ImFoRuOYSDQ4Hg1nmMNxEnghHK7vQe16HXQA6qe7gIhVADQTSDqB50F3BWKI8j8JRNYt4AbQF2iQ5YDbgQ3UVpE3IimRs0aeFFklI7QKR02lPy008iMal43IWsd+6DzSh0PaiSQ8G0n8wU+c3qrS+Mz6qKpFhPbgKzAaBIFEK+fN4G1wLxBR4snBJDwEPgCXA5egnIbkHv4+DGR9uoBfgF8Br3xL4L+ACPo48A6sUsKaOkUYzQTngweBBghdG1MOIvYPYC24CqhtjZEnKFwENAiWRymaRPg28Huggf/fYCTwisg8ORyh6xgDvgmHdVgRxjSOs8EjICKRbS3I1PvMmUWXRlLinKSlO4uXXNTVW0FVTsdWQ0WEmUuHZ2nUVBOfZR4KWs5w+vXUnJlF52tBVi3DDxDgAUY/J2gzqEL39r2oKkNP1ogrAy5Zo7JYIkwikYVQ3wwBu2JkLCduAhgMTgS5IJaIgLXJ3WQQYWXpuoN1IJaI+LJWlwARrbGSiYIzwQcxFKljRdJzwFCQC6KlgIgjwE7wU6D+iiUlRGpQfOxN9GlbSxH4duOtoDOnNlSW+9XR1SRnRkl/yvdTpM8xsiA1BBdhsbGs95Vg29atNTI0c0T2y1s7s501jS0CmmG+GDo6c15Ule4N0M2X5SNfg0RWOBZZXWWymK5vd5Ib2YDjJ54yJ3vOY53eQ2RTkFW6NZjcvlI4lkwNR2oAy9XyimtxHyByhzchxvmXxMl1iEjEwrJ6ppOdvZGUOCcQUlaimthOMGRducXLIeaqaonegPE/zGOv59kxOK//7KJTl43M8na6N2eTnJ87e/Nh+2372IBtRjn7y29BaVvaWOG3zIQCY2R1vLKSwLtgIPgt0Oh/FswB8awXSTXktRoxNSP+GY7S9KgpW1Y9nhxFggZR9OJE+WVsNLDaKJBAmnI2ezNBPW6Se30KZ4Bt4YTDOHYJn2vqr4vovujehcTz4MC6a0V+1z+7CXU9njVrU/eKgBVyJZj2q/kb0Tp6d+8y7cP1RQ/SzUcHK0NW9uroPA0IH589fdOeGuWMSd1bGRQZkNAkwuaFKTU+54rlozPfqIqv9jdASKNffZAHTgbyxQRZlClAo30/iJaqCqoWWuujE2OEv/XExbLkskoyAteDQz15G3Kquv7RkIJxyqyOE++Njnd9nTyZ6tqmzzxlrEYvuiDrf0IIn5TiFozOnh7fD167rhjSWPt1dx3jjGHf9peL8o/82tug+p/zvkCsm6rHdx5hX/h+45jJ+M6Jpmv5VfngdCALOxrIIpwWBtcainufo1dc0smSiPiNEfl3IkUWkK7FQIs+LwkIhkRbQ7qHbv1VsdX/xhpg1XPUL1Rjhq1Hce8MfjTlEt0LV+1R7omOjSLsWa9u6lixz2Alq8gBR7jB1YnirSx07iY7VlqZtf8m4n5dI089IrCaJdyuGpYaS2pLjROwCqmyI37zvlWXZdalg1RMhBQmgmwwHlwJjgUvg97Aq8u9KqIbLX9Cg8i6BlwEtoJ4MpaE2ggbr2xLxG+nUpG2HVAffgpqk17eDI0ibOV3upFOW021DPJnvIoTnjtOthZpLH9u4N2D+717tgnLxUhkkOxblZ8V16/qV1h0Kz7zc7SzoH/h5vnL8jM+jKEmXpSIKF9LmAleBfLJhoBC0BwyOKz0do6JyCp3J7U5GtCMOoPoXgBGgJvBSyDRYNc1XgMi0mDC8vJIKlM8znDoda8pK/IzNV3WSSBpz6DjfMSK/TBaO5ZCT9SpYAMyrcjPmnJmYdFl1HVBwLKn8qStTwOftGkx9QU4AWjUNwdhdYM6AonXglfFVP87jqBL2EQuQfVSLR+6myZcDHLABPAwiCf3kXCcNzHke3oj6nr+4Yaiy7GSx+CUOo7PPFrXcsqHRf2YafxtnTNvT8QCNmuHp6f5r8N33gtpe/Ck7TeqN4ZMIi43RrwbJXLIv5RoamsOKUPp52HFuFdxZQApupmuNGv/uZU00fET9DwU1qXjs8C7GFOS1g2vgFvBUyAiDSassY2UwTtn/srRmV9GNNb5xB9utHNCzqwi+WrNJu9e2qWYBdfPVQEWfSIWflBUZZrm7wTvgLlA7WkLXDmFkzlA1u9bIPegueTpsOK7OGpPVzdPoq2rnuAR8BbYB5p6QYXKH0RkZWeHa7qK4w4gDr0BNoLNQFZYbuYfQEQaRNicGZvPxbr2lhbjT2jSIxVFn6zM6zIftoesiRMmf3Sepgxj1f+Cr70Iyvpsx54y4OXt7Tz61UFaAGpBMBzMA6VA07KI8SkYBkSQS0AJaC7RQJ4FdG9EWrXtOyDr+xH4GVD9Q4DiJQeShVV71Y+aQcaA94Dafzw4H3QFq8EVYBxIB65UaEtoN9l3s3gpd2NrO9q2PU5lIMCqFaO6Lqgtf6x0yrIf5Zscqtty/m3AzE09IvkML6igX0grZ30fW8rCeWTxahXV50+1xtEzW3FAOgT2l02KKqQ91iygmUMWbDtoDyqBiHI/kD+1GESL+m432BOdECcsncovcAuqicK6mYL6Vo+5ZV13ArlRN4NTwT+A6pMO6YuW+rQpQOF47ZHe2tKj69Y9c/WpbCzRdb4I+gK5Wn3AaeAwcCZ4CUi+58X3DyCqUpJ/a/RAa7FcraUdNTroB4h4jDpE7k0/QF3JKpI9ELMHtBtSF3e0F/k0U4iwk0FSkj3QIj3wFLWuAZr644lchc+AyCr3ojPAC6yjaOvprBlbTggauzu/SD0Cj9DBLdxnjG/D4W3M5/MuPsZdANRRY+3Zzhp2RceyvZUZVkrl0Tyx6uDz+9l4tgPG+LenWGbT+QN7fFVQUBDPx629gmSOluiBDlT6OTgSiIxzwetgXTh8MsccoEWXrLAs7MXgLZCYsPoVwWZTMtS2g/8BO3O10a9CNYVNLsOIMdbffSblxYb++jZE0H37RzE4BjGScjhW2zSuUa+x9pFvNb/4XWb7nNnvL5yrFWdSWn8PHE4TtR8+FmhBGU/WknA1eN/NENfC8kjzMn7TglKRxqwj41xenl0aTDHrU+1gwPj8lZU2lLKcHvz4pT95ciB0X4ZMOnmX8juZ36/My3rZrSjR8fTcERfx+OEajPiF5OMNMkcNXcLKfpmDBU8zvs2sHXdJh6+8XYr97d7OlZaTYVvBHvx2TNPKObQkA+J+wQvkL/n8zour3p7zhfInpVX3gKZ5Wc+BIBO0BTvBJ0B7stoVqSY1CBt60bm8/DkIMFTEc4z/bvZMF2pbqFrJGAHtbQbLy65ljp4AebOwuB9Ylv/2VfkZ78TIbvUdOOpC2wQnMTH0Qf+nEO75NmlpU5e+NU1bOXUW2mr6Dh45gDdcf8xbYKMZRUei7zV+unvfewtnrayzomTGVt8D1QibPbO4l2U7r2E127FLevPKyzKnNuQK9DG377YV5+Em3AmZesrqWWltJq4c3nmr9OXk5h1fbgeewXoPhKTvMxbuWrN4rvyYRkteXp5/w/ZAHru3d6Jfq8xZJi311vcWzChqtPKkghbvgQhh9UKKbTmLsE47/MYM48nQ/za2dSLu/h3Fv8Bz+DUuwx4/H7Ko/OPN3Xjx70F84m98Pt+E1e/M1LcCarXe9W2LrO4ZuaN+wvFBiNve+Kw71iya+3h99STzt64eCBE2NKWOuaPU32vgLnPyGX1dS9hUTdXPYQI7tr0QXDS9l7P5Sx7n+l9q57S7cdGiKdquaFbJHjrm0MD+8kedYGCsr9spy9c8fz/+dlIO1B5IUcNl4fpcMr44MP+ZTP+bz55IVGjqboqL0mDoM3jkIHza4yx/m1L/0HHp5rie2RV+08taNOXdpqgjkQ7nqgf7plj2AHv9R5XOlo3LE+VNprX+Hoi4BH2G5LV3KgNvEdGTN7Cuxqd0n+U2+CrOGDKqu10ZfAY3I5dBMdMy6Tek3PhAVxRO5S3aEyHxM2km9d4l+cc0uX+ZM3PLSUE7cD91jGBErsGPvoa3yvROQFIO4B6IEFbXMOCSq9vt37NrGgS7kMXQX9ukWz9f9uacbfW9vuxz806pDARuw3ccgx6+gm3dvGbRnGmuHl6ibrNzbzHp1i8t4/D9b/OU46RNXpV/1AY3T0OO2jcuMsXnsuswnmu4lIv7Gv33DM3Lerqg5q9kG1JFskwL90A1wqotIX920CjeWHLuBQG+jPG4L9U8vXrBrPWJ2nreeVe2/aai9GwWWLdAlqHk5W0u30NWqv9RVuh7YpU9e9b2oysCZTfy9tR40g+nMUup829t0lJe1zusscpEx4V++bC+KBsr+mMan0fdPEFh39g4j/ks35ON+flNdF3JcMv3QA3Cuk3Kzh2ZEbDtAogwBhK34fgR1nIZ1msdVovX2Qxk5sPutumBC9Gf816QJQWFG9jsf/qg9h0eW/rKs3tdfYmO7Cak85n4yyHcTejoo7xY3RLCK3gAsYFdhS0+y9mFG8EnBfj/B47pjNXuyq7GyewvnM4WQzp7vrt5SfsVy2+mDx2V8UZB0qIm6vIDNi0uYd0rqnpcWsZvoniapM9N8gl2Nw0CQ1zna4i0AYbxLVj/vPfenfGxm96Q49mFXx1R4QsM5JNCg9CZQwOPpk799qvqRV5MJ0/FdlPndsi7lhlgjY/PR/Y6NmNp8gPFDenxA6tMrYSNvpzc3IKUirS1nYLBdLNiwYvbtMMQnac5wvr2bLlVnnZ+XsbupPVsjh4+MHT+H5c2C3Vl4aGSAAAAAElFTkSuQmCC",
+          "name": "FAIRsharing",
+          "props": [
+            "registry"
+          ],
+          "requestBody": "",
+          "requestEmptySearch": true,
+          "requestHeaders": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            },
+            {
+              "key": "Api-Key",
+              "value": "${apiKey}"
+            }
+          ],
+          "requestMethod": "GET",
+          "requestUrl": "${apiUrl}/search/?q=${q}&registry=${registry}",
+          "responseItemId": "{{item.record_id}}",
+          "responseItemTemplate": "{{item.name}}",
+          "responseListField": "results",
+          "uuid": "2f99881b-5c88-4049-8325-c86fce010118"
+        },
+        "9e7394f9-f83f-449f-9d8f-406c3a714035": {
+          "annotations": [],
+          "id": "OperatingSystem",
+          "integrationType": "ApiIntegration",
+          "itemUrl": "https://example.com/${id}",
+          "logo": "",
+          "name": "Operating System",
+          "props": [],
+          "requestBody": "",
+          "requestEmptySearch": true,
+          "requestHeaders": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            },
+            {
+              "key": "User-Agent",
+              "value": "wizard"
+            }
+          ],
+          "requestMethod": "GET",
+          "requestUrl": "https://query.wikidata.org/sparql?query=SELECT%20%3FosLabel%20WHERE%20%7B%0A%20%20FILTER(regex(%3FosLabel%2C%20%22${q}%22%2C%20%22i%22))%0A%20%20%7B%0A%20%20%20%20SELECT%20DISTINCT%20%3FosLabel%20WHERE%20%7B%0A%20%20%20%20%20%20%7B%20SELECT%20DISTINCT%20%3Fos%20WHERE%20%7B%20%3Fos%20(wdt%3AP31%2F(wdt%3AP279*))%20wd%3AQ9135.%20%7D%20%7D%0A%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cen%22.%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0AORDER%20BY%20(%3FosLabel)",
+          "responseItemId": "{{item.osLabel.value}}",
+          "responseItemTemplate": "{{item.osLabel.value}}",
+          "responseListField": "results.bindings",
+          "uuid": "9e7394f9-f83f-449f-9d8f-406c3a714035"
+        },
+        "bbdecf2e-a170-4c8b-a1dc-7a1354f6793d": {
+          "annotations": [],
+          "id": "SPDX",
+          "integrationType": "ApiIntegration",
+          "itemUrl": "https://spdx.github.io/fsf-api/${id}.json",
+          "logo": "https://spdx.org/sites/cpstandard/files/logo_spdx_250.png",
+          "name": "SPDX Licenses",
+          "props": [],
+          "requestBody": "",
+          "requestEmptySearch": true,
+          "requestHeaders": [],
+          "requestMethod": "GET",
+          "requestUrl": "https://spdx.github.io/fsf-api/licenses.json",
+          "responseItemId": "{{item}}",
+          "responseItemTemplate": "{{item}}",
+          "responseListField": "",
+          "uuid": "bbdecf2e-a170-4c8b-a1dc-7a1354f6793d"
+        }
+      },
+      "metrics": {},
+      "phases": {
+        "2da06448-ddbb-4714-9864-6fe1dc56a4a4": {
+          "annotations": [],
+          "description": "ensure the (re-)use and reproducibility of the software",
+          "title": "Stage 4: Production (production software working on real-world data in a scalable and stable manner)",
+          "uuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4"
+        },
+        "5e67b259-cf46-4772-a2c1-fa85f4b4f5e4": {
+          "annotations": [],
+          "description": "Decide on where to publish / deposit the software \nDocumenting information about the way people should cite the software\ncreate releases with a persistent global unique identifier pointing to each released version of the software\nkeep an up to date CHANGELOG to communicate changes",
+          "title": "Stage 5: Publication (Publishing software and/or research results obtained with the software)",
+          "uuid": "5e67b259-cf46-4772-a2c1-fa85f4b4f5e4"
+        },
+        "801de771-b2ab-40d7-bea7-63760c7d2765": {
+          "annotations": [],
+          "description": "Documenting how the software can be reliably used by people external to the development group or person\nProviding tests as extensively as possible(ideally through automated processes\nSetting up Communication channels",
+          "title": "Stage 3: Application (release and quality assessment)",
+          "uuid": "801de771-b2ab-40d7-bea7-63760c7d2765"
+        },
+        "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48": {
+          "annotations": [],
+          "description": "license of the software\nwhere the software will be stored during development\nwhat kind of versioning system will be used\nwhat kind of input and output standards the software will have",
+          "title": "Stage 1: Getting started (requirements, specifications, planning)",
+          "uuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48"
+        },
+        "cccd928f-f0ef-4a49-acdf-f9aef960e697": {
+          "annotations": [],
+          "description": "testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)\ninclude also sample example input and output files.\nthe actual scope, goals and purpose of the software needs to be defined and documented",
+          "title": "Stage 2:  Construction (prototyping, construction and implementing core functionality)",
+          "uuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697"
+        }
+      },
+      "questions": {
+        "02e7b495-eafb-45bd-a6ff-77fdb5945063": {
+          "annotations": [],
+          "expertUuids": [],
+          "integrationUuid": "9e7394f9-f83f-449f-9d8f-406c3a714035",
+          "props": {},
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Pick the most fitting term in the completion list",
+          "title": "Operating System",
+          "uuid": "02e7b495-eafb-45bd-a6ff-77fdb5945063"
+        },
+        "031b69b6-87ce-4572-9830-d782f952b3d5": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#hasAPIDocumentation"
+            }
+          ],
+          "answerUuids": [
+            "e35fb049-2786-492d-9a97-d01c776390a0",
+            "c3814f86-b95f-43a6-adf9-7678d692d3c3"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "API documentation",
+          "uuid": "031b69b6-87ce-4572-9830-d782f952b3d5"
+        },
+        "047da664-54c0-4ef1-b3a9-584b634d83a0": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "047da664-54c0-4ef1-b3a9-584b634d83a0"
+        },
+        "074948ac-4abb-4438-bd96-e420b10164f4": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/programmingLanguage"
+            }
+          ],
+          "expertUuids": [],
+          "itemTemplateQuestionUuids": [
+            "7014e172-d0ee-47b6-a645-a0a11feab854"
+          ],
+          "questionType": "ListQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": "Please specify all programming languages used",
+          "title": "What programming languages are you using in your project?",
+          "uuid": "074948ac-4abb-4438-bd96-e420b10164f4"
+        },
+        "09af0413-08ae-409f-be98-b11d84c88615": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/storageRequirements"
+            }
+          ],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Minimum storage requirements to execute a sample input (in GB)",
+          "title": "Please describe the expected minimum storage requirements to execute your software",
+          "uuid": "09af0413-08ae-409f-be98-b11d84c88615",
+          "valueType": "StringQuestionValueType"
+        },
+        "0e3a3e2c-c5ae-4a68-8328-7f3f9aa4ca4c": {
+          "annotations": [],
+          "expertUuids": [],
+          "integrationUuid": "2f99881b-5c88-4049-8325-c86fce010118",
+          "props": {
+            "registry": "standards"
+          },
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Please start typing for completing options from FAIRSharing. If not present, please add both name and URL. Also, please use commas to separate each standard",
+          "title": "Please select the standard(s) you are using for outputs:",
+          "uuid": "0e3a3e2c-c5ae-4a68-8328-7f3f9aa4ca4c"
+        },
+        "0fd6ac3e-8432-41eb-948e-5c4f21f7770a": {
+          "annotations": [],
+          "answerUuids": [
+            "ec7be65a-cdfa-4d3c-b791-84809a154720",
+            "e2438338-ebff-4704-98cc-9d5cd305838b"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Docstring/comments in the source code",
+          "uuid": "0fd6ac3e-8432-41eb-948e-5c4f21f7770a"
+        },
+        "1b2706cc-38d8-479c-9341-d98e5e8df6a6": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25634"
+            }
+          ],
+          "answerUuids": [
+            "23da4a6a-a7bf-4b88-8ee4-7c024f60d8e8",
+            "ca593cef-8c0f-451d-ae46-62e3a2558b17"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+            "3eec6a3a-852a-4621-accd-c62fb3d67043"
+          ],
+          "text": "This question aims to ensure that the software itself has a clear goal, that is clearly stated in an accessible part of the software documentation.\n\nExamples include; the README file, a wiki page, a dedicated documentation website, the \"about\" section of the respective website, etc. ",
+          "title": "Is the purpose of the software stated in the documentation?",
+          "uuid": "1b2706cc-38d8-479c-9341-d98e5e8df6a6"
+        },
+        "1d6cdc34-691d-461b-a46d-f6df7fa26255": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": "For more than one, please add multiple rows",
+          "title": "Please provide information about this Other Documentation, including the corresponding URL, if available",
+          "uuid": "1d6cdc34-691d-461b-a46d-f6df7fa26255",
+          "valueType": "TextQuestionValueType"
+        },
+        "216da444-1c0e-442f-a579-b7ebe1bf9f7a": {
+          "annotations": [],
+          "answerUuids": [
+            "8c11a2c5-2d41-4e1a-89f4-82e498a84c85",
+            "9e917495-e064-4961-b6e8-4c873c696656"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Other",
+          "uuid": "216da444-1c0e-442f-a579-b7ebe1bf9f7a"
+        },
+        "22c70672-edd2-46cd-a422-bb857bc46def": {
+          "annotations": [],
+          "answerUuids": [
+            "d488fe17-df1a-4583-8829-fc0d0f02aeec",
+            "fbe41b6b-d976-46b6-a686-5df9023e08b4"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": "Software without a license cannot be used by others.",
+          "title": "Does your software have a license?",
+          "uuid": "22c70672-edd2-46cd-a422-bb857bc46def"
+        },
+        "22f56a54-035f-46fb-9c2e-6f05a2ffc30e": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "If you use any other solutions to capture system-level or non-language-specific dependencies, please specify",
+          "uuid": "22f56a54-035f-46fb-9c2e-6f05a2ffc30e",
+          "valueType": "StringQuestionValueType"
+        },
+        "23538b8f-de09-4143-98d5-a234ea5144b8": {
+          "annotations": [],
+          "answerUuids": [
+            "bda41a33-5316-4b29-aa14-f6ea0ef86129",
+            "1a5e79fd-fc09-45a5-a645-f5aa42c5ed54"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Do you use any kind of versioning scheme?",
+          "uuid": "23538b8f-de09-4143-98d5-a234ea5144b8"
+        },
+        "267e8c3a-71cc-49bd-9e1c-9d5841f12046": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#endToEndTesting"
+            }
+          ],
+          "answerUuids": [
+            "02173107-55dd-401b-ba01-d54e69ac63b2",
+            "c6df8fa4-f93c-4440-9d66-f1e138d286e3",
+            "0d1a8ff0-a566-499a-afb4-59c406de1792"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "End-to-end",
+          "uuid": "267e8c3a-71cc-49bd-9e1c-9d5841f12046"
+        },
+        "2d8ac64e-c52b-46ee-bdaa-2566c7c919ad": {
+          "annotations": [],
+          "answerUuids": [
+            "86e7d3ff-99ad-4ba9-80b5-a3246accb1f6",
+            "f911934c-a4c4-47d2-8630-2ead5c9105bd"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "CVS",
+          "uuid": "2d8ac64e-c52b-46ee-bdaa-2566c7c919ad"
+        },
+        "2db46369-4482-4a63-af2f-f65d4885c11d": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "2db46369-4482-4a63-af2f-f65d4885c11d",
+          "valueType": "StringQuestionValueType"
+        },
+        "2e7b3806-3bd6-4fa0-bad3-2b23be328f1d": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "2e7b3806-3bd6-4fa0-bad3-2b23be328f1d",
+          "valueType": "StringQuestionValueType"
+        },
+        "311b414b-3b46-4951-9da6-36377e7b1a1a": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please specify the name of the operating system",
+          "uuid": "311b414b-3b46-4951-9da6-36377e7b1a1a"
+        },
+        "327b65c4-3782-4b93-adb0-6db7b9f19e84": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/license"
+            }
+          ],
+          "expertUuids": [],
+          "integrationUuid": "bbdecf2e-a170-4c8b-a1dc-7a1354f6793d",
+          "props": {},
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24"
+          ],
+          "text": null,
+          "title": "What is the license of your software?",
+          "uuid": "327b65c4-3782-4b93-adb0-6db7b9f19e84"
+        },
+        "3340c6cc-c17b-49c3-b1b0-37b202bf246b": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#hasUserDocumentation"
+            }
+          ],
+          "answerUuids": [
+            "7be00246-4ea7-4522-ae40-51e917679dc0",
+            "440dcbaf-efc4-4a25-98a7-572f5c946b67"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "User documentation",
+          "uuid": "3340c6cc-c17b-49c3-b1b0-37b202bf246b"
+        },
+        "42227f44-024c-40df-b46b-43159dbbc4f9": {
+          "annotations": [],
+          "expertUuids": [],
+          "itemTemplateQuestionUuids": [
+            "ab9d5f0b-980f-4f18-9fbc-c0a5f4b62f68",
+            "5f6b134d-58a7-4fb7-83ed-629c5bf308d4",
+            "73e97271-49dd-45b7-8567-61aedc69b850",
+            "43203a16-a208-432e-8bfa-12f795c150db",
+            "a542a2a4-c427-4c0d-85da-4971cced0372"
+          ],
+          "questionType": "ListQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "This question aims to capture which aspects of \"interacting\" (testing, using, building, deploying and installing) with the software are described in the documentation.\n\nKeep in mind that some ways of \"interacting\" may be not be possible to define (and therefore describe) in the earlier stages of designing and implementing the software. For example, describing how to deploy the software may not be possible during the construction phase; but describing how to test the software may be possible at the same time.",
+          "title": "Does the documentation describe how to",
+          "uuid": "42227f44-024c-40df-b46b-43159dbbc4f9"
+        },
+        "43203a16-a208-432e-8bfa-12f795c150db": {
+          "annotations": [],
+          "answerUuids": [
+            "36dad341-a66a-4696-af12-b373b78dd419",
+            "7c335f91-e191-452d-80cb-9981721aded5",
+            "3db765d0-7a33-4a67-a099-070e39d6cf9d"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Deploy the software",
+          "uuid": "43203a16-a208-432e-8bfa-12f795c150db"
+        },
+        "46cf738c-a96e-41b6-93be-1c2c5ce7018a": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "46cf738c-a96e-41b6-93be-1c2c5ce7018a"
+        },
+        "4750b225-3710-40b1-bde4-1a577a1620fa": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "4750b225-3710-40b1-bde4-1a577a1620fa",
+          "valueType": "StringQuestionValueType"
+        },
+        "4a56b2d9-151e-479b-93a3-dfe45d599f3b": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Please provide the URL",
+          "uuid": "4a56b2d9-151e-479b-93a3-dfe45d599f3b",
+          "valueType": "StringQuestionValueType"
+        },
+        "4dd45029-e598-4284-923a-25daeb225d85": {
+          "annotations": [],
+          "expertUuids": [],
+          "integrationUuid": "2454b6d9-8d94-4d14-a875-01f19f000774",
+          "props": {},
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Please specify each programming language",
+          "uuid": "4dd45029-e598-4284-923a-25daeb225d85"
+        },
+        "4e393382-d411-4e58-8e0e-77de41c253e8": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/operatingSystem"
+            }
+          ],
+          "expertUuids": [],
+          "itemTemplateQuestionUuids": [
+            "6fd3e504-2a60-4071-8958-1a92644b58cb"
+          ],
+          "questionType": "ListQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Please specify all operating systems supported by your software",
+          "title": "In which operating systems can you execute your software?",
+          "uuid": "4e393382-d411-4e58-8e0e-77de41c253e8"
+        },
+        "50bbb11d-1046-4e1c-97e4-fb8277cff3ef": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#integrationTesting"
+            }
+          ],
+          "answerUuids": [
+            "f9456ddc-e163-4510-8ef6-d314b1067f9d",
+            "1710d673-ccaa-4108-aa76-a9923206771f",
+            "9c024864-8b7d-4219-b53d-4a2454819304"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Integration",
+          "uuid": "50bbb11d-1046-4e1c-97e4-fb8277cff3ef"
+        },
+        "5245cccb-c7bb-4480-8940-f4280b2df58d": {
+          "annotations": [],
+          "answerUuids": [
+            "cdefafc7-48f4-4a1e-ac88-dba2638cf84e",
+            "c6968a35-a3b1-47ad-8de6-53cf2362fe21"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24"
+          ],
+          "text": null,
+          "title": "Git",
+          "uuid": "5245cccb-c7bb-4480-8940-f4280b2df58d"
+        },
+        "53977216-eca7-4856-ab86-34f31fd3814f": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/archivedAt"
+            }
+          ],
+          "answerUuids": [
+            "a0ec295c-5eaa-4ff9-889e-5c794787b370",
+            "a1f80749-f059-4bcf-a83a-225f579804d2"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Is the software registered in a domain-specific registry",
+          "uuid": "53977216-eca7-4856-ab86-34f31fd3814f"
+        },
+        "56adb0ca-3e80-45fa-8fbe-1f3508d6032b": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/name"
+            }
+          ],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24"
+          ],
+          "text": "This questions aims to ensure consistent naming of the software. It can also be the name of the repository and can be changed in later stages of the software development cycle.",
+          "title": "What is the name of the software?",
+          "uuid": "56adb0ca-3e80-45fa-8fbe-1f3508d6032b",
+          "valueType": "StringQuestionValueType"
+        },
+        "56c076d1-1f9d-4562-beb0-efa643df1dc7": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/author"
+            }
+          ],
+          "answerUuids": [
+            "d17cbf5c-fab8-443f-9cef-a2de54dfcc3c",
+            "b7e953dd-b32e-4318-baad-9c3dd3c2deb2"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Does the citation information contain ORCIDs of (at least one of) the authors?",
+          "uuid": "56c076d1-1f9d-4562-beb0-efa643df1dc7"
+        },
+        "5966a73e-216c-462f-b6de-dd3023402b30": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "ChromeOS",
+          "uuid": "5966a73e-216c-462f-b6de-dd3023402b30"
+        },
+        "5bd60cac-4206-46d9-b3c3-5ac8bcf9e422": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [],
+          "text": "Such as GPU computing, FPGA, and other specialized hardware.",
+          "title": "Please describe any expected special computing requirements to execute your software",
+          "uuid": "5bd60cac-4206-46d9-b3c3-5ac8bcf9e422",
+          "valueType": "StringQuestionValueType"
+        },
+        "5c33bdc5-d5ac-4ff0-a482-a938de8caf3e": {
+          "annotations": [],
+          "expertUuids": [],
+          "integrationUuid": "9e7394f9-f83f-449f-9d8f-406c3a714035",
+          "props": {},
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [],
+          "text": "Use the Add button below if you need to add more than one",
+          "title": "Please specify each operating system",
+          "uuid": "5c33bdc5-d5ac-4ff0-a482-a938de8caf3e"
+        },
+        "5e2c59ad-c479-4e92-ac81-f1e6e5fe85ec": {
+          "annotations": [],
+          "answerUuids": [
+            "6cef5f87-f088-4431-95ee-6a2cbb2432c7",
+            "a031948f-7831-4169-8b8e-bd8bad4b7513"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24"
+          ],
+          "text": null,
+          "title": "Mercurial",
+          "uuid": "5e2c59ad-c479-4e92-ac81-f1e6e5fe85ec"
+        },
+        "5f6b134d-58a7-4fb7-83ed-629c5bf308d4": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/usageInfo"
+            }
+          ],
+          "answerUuids": [
+            "58a790bc-2e4c-4ce9-b719-b73e23180f33",
+            "f7cea2cf-694d-4578-8af1-ff9a4018981d"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Use the software",
+          "uuid": "5f6b134d-58a7-4fb7-83ed-629c5bf308d4"
+        },
+        "60a36367-0be7-4491-9508-82bc569cb878": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://codemeta.github.io/terms#readme"
+            }
+          ],
+          "answerUuids": [
+            "e5a422a2-7fd0-4b2a-adb7-fdb9d1d66fbc",
+            "35e8e4ec-f81c-4225-8bb0-53fd682ebfa5"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "README file",
+          "uuid": "60a36367-0be7-4491-9508-82bc569cb878"
+        },
+        "6d08f13e-ea96-42b1-8342-baa7385b9b85": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "5e67b259-cf46-4772-a2c1-fa85f4b4f5e4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "6d08f13e-ea96-42b1-8342-baa7385b9b85",
+          "valueType": "StringQuestionValueType"
+        },
+        "6f77b515-8083-49b6-b68a-cfb83a986f39": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "6f77b515-8083-49b6-b68a-cfb83a986f39"
+        },
+        "6fbc58e0-5eca-48eb-9539-5f75d43bd4d0": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "6fbc58e0-5eca-48eb-9539-5f75d43bd4d0",
+          "valueType": "StringQuestionValueType"
+        },
+        "6fd3e504-2a60-4071-8958-1a92644b58cb": {
+          "annotations": [],
+          "expertUuids": [],
+          "integrationUuid": "9e7394f9-f83f-449f-9d8f-406c3a714035",
+          "props": {},
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Use the Add button below to add more systems",
+          "title": "Please indicate one or more systems",
+          "uuid": "6fd3e504-2a60-4071-8958-1a92644b58cb"
+        },
+        "7014e172-d0ee-47b6-a645-a0a11feab854": {
+          "annotations": [],
+          "expertUuids": [],
+          "integrationUuid": "2454b6d9-8d94-4d14-a875-01f19f000774",
+          "props": {},
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Use the Add button below to add more languages",
+          "title": "Please indicate one or more programming languages",
+          "uuid": "7014e172-d0ee-47b6-a645-a0a11feab854"
+        },
+        "731a72e0-ba36-4f41-ab2a-c52df607e89f": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Other",
+          "uuid": "731a72e0-ba36-4f41-ab2a-c52df607e89f",
+          "valueType": "StringQuestionValueType"
+        },
+        "73e97271-49dd-45b7-8567-61aedc69b850": {
+          "annotations": [],
+          "answerUuids": [
+            "60be8bc6-5b99-423d-8753-47e84017b94d",
+            "2736b675-baed-463d-a42a-87f6f6b5f136",
+            "ceec355e-3c3d-4960-80b9-7413a321da42"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Build the software",
+          "uuid": "73e97271-49dd-45b7-8567-61aedc69b850"
+        },
+        "78e2cd17-1d97-4a14-80f4-de6c9cac0ef7": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://bioschemas.org/input"
+            }
+          ],
+          "answerUuids": [
+            "231aad58-ef10-4b2e-9764-e2b36a4c173b",
+            "e74d98db-9e06-4f0b-859c-b807767662b3"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": "The main purpose of this question is to ensure that non-standard I/O formats are avoided, as they increase the complexity of (re)using the software by others.",
+          "title": "Do you use well-established standard input formats?",
+          "uuid": "78e2cd17-1d97-4a14-80f4-de6c9cac0ef7"
+        },
+        "79f1ef3f-6bee-406d-bc45-8b7685525c37": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Please list the corresponding registries (Name and URL for each)",
+          "uuid": "79f1ef3f-6bee-406d-bc45-8b7685525c37",
+          "valueType": "StringQuestionValueType"
+        },
+        "7b72705c-7ac1-46b0-ad28-a455dc158a41": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#hasLearningResource"
+            }
+          ],
+          "answerUuids": [
+            "c110415c-76bb-446a-b6ef-118b5140b895",
+            "93a8989f-7c3f-42ff-b03c-0ace776d3e57"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Tutorial",
+          "uuid": "7b72705c-7ac1-46b0-ad28-a455dc158a41"
+        },
+        "7c3acb8b-ec51-4eea-88ee-5a238ceb9eaa": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "New question",
+          "uuid": "7c3acb8b-ec51-4eea-88ee-5a238ceb9eaa"
+        },
+        "843c467a-de1c-475c-9b01-aec90a318716": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/identifier"
+            }
+          ],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Please provide the URL",
+          "uuid": "843c467a-de1c-475c-9b01-aec90a318716",
+          "valueType": "StringQuestionValueType"
+        },
+        "859d6eeb-f87d-47e4-873a-1f98ea6d0ed8": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "Please specify the name of the operating system",
+          "title": "Other",
+          "uuid": "859d6eeb-f87d-47e4-873a-1f98ea6d0ed8",
+          "valueType": "StringQuestionValueType"
+        },
+        "85d21afa-b7a3-4a84-bb9b-1d36620feac2": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "85d21afa-b7a3-4a84-bb9b-1d36620feac2",
+          "valueType": "StringQuestionValueType"
+        },
+        "86fe3ac8-b254-4f8c-981d-591919580602": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "86fe3ac8-b254-4f8c-981d-591919580602",
+          "valueType": "StringQuestionValueType"
+        },
+        "8a4020fd-359b-4afd-b72a-a18d8a5b84d5": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/releaseNotes"
+            }
+          ],
+          "answerUuids": [
+            "0240ff92-dc65-4223-926b-87d52ae61e25",
+            "f644b549-ff55-42ec-b7d6-ace739d812ce"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Release notes",
+          "uuid": "8a4020fd-359b-4afd-b72a-a18d8a5b84d5"
+        },
+        "8f3a83fc-863f-45dd-8b89-f5f631cd1b96": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "8f3a83fc-863f-45dd-8b89-f5f631cd1b96",
+          "valueType": "StringQuestionValueType"
+        },
+        "93b4c33e-2f4b-4b06-b024-740f77e5e341": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/versionScheme"
+            }
+          ],
+          "answerUuids": [
+            "176db8d1-932f-4924-a796-5d67e70eae9e",
+            "604e573a-ad58-45ec-bcff-d6fa0313f2c8",
+            "82a3197b-fbb0-425c-b998-d8cbce839ab1"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Which kind of versioning scheme do you use?",
+          "uuid": "93b4c33e-2f4b-4b06-b024-740f77e5e341"
+        },
+        "95cfac46-59c6-4f60-bac8-be24a5a4cab2": {
+          "annotations": [],
+          "answerUuids": [
+            "19e1ec51-851d-4e9e-8916-71102e446d35",
+            "766974e9-6ce4-47b1-a585-dd66759fa450"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "CHANGELOG",
+          "uuid": "95cfac46-59c6-4f60-bac8-be24a5a4cab2"
+        },
+        "962660d4-46fc-46f6-809a-ae5f41ce47cf": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Which other kind of versioning scheme do you use?",
+          "uuid": "962660d4-46fc-46f6-809a-ae5f41ce47cf",
+          "valueType": "StringQuestionValueType"
+        },
+        "9b590484-9b76-4a94-8fed-22dd33f7a302": {
+          "annotations": [],
+          "answerUuids": [
+            "c80ad2f2-c187-4fba-93c4-0898bccf2d39",
+            "e01ab722-a9ab-4e7e-b037-d5e192273f11"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Do you use a version control system?",
+          "uuid": "9b590484-9b76-4a94-8fed-22dd33f7a302"
+        },
+        "9df8e198-dccd-4280-94a9-8b4db9b01eed": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Please provide the PID",
+          "uuid": "9df8e198-dccd-4280-94a9-8b4db9b01eed",
+          "valueType": "StringQuestionValueType"
+        },
+        "9e518fae-ea04-4574-b721-b05e97c2f92d": {
+          "annotations": [],
+          "expertUuids": [],
+          "itemTemplateQuestionUuids": [
+            "3340c6cc-c17b-49c3-b1b0-37b202bf246b",
+            "f3cc4cfb-ebfa-4845-9caa-ce9eecba0b77",
+            "031b69b6-87ce-4572-9830-d782f952b3d5",
+            "60a36367-0be7-4491-9508-82bc569cb878",
+            "8a4020fd-359b-4afd-b72a-a18d8a5b84d5",
+            "0fd6ac3e-8432-41eb-948e-5c4f21f7770a",
+            "95cfac46-59c6-4f60-bac8-be24a5a4cab2",
+            "7b72705c-7ac1-46b0-ad28-a455dc158a41",
+            "216da444-1c0e-442f-a579-b7ebe1bf9f7a"
+          ],
+          "questionType": "ListQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "This question aims to capture the available types of documentation that are currently included in the research software, or are planned to be added to the software.",
+          "title": "What type of documentation is available, provided with the software and delivered under the same conditions?",
+          "uuid": "9e518fae-ea04-4574-b721-b05e97c2f92d"
+        },
+        "a2d1cf7f-a977-4728-9e0b-f9c4d5a46093": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "a2d1cf7f-a977-4728-9e0b-f9c4d5a46093",
+          "valueType": "StringQuestionValueType"
+        },
+        "a3336d26-a3ad-40c4-8694-e0d50f766001": {
+          "annotations": [],
+          "expertUuids": [],
+          "integrationUuid": "2f99881b-5c88-4049-8325-c86fce010118",
+          "props": {
+            "registry": "standards"
+          },
+          "questionType": "IntegrationQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Please start typing for completing options from FAIRSharing. If not present, please add both name and URL. Also, please use commas to separate each standard",
+          "title": "Please select the standard(s) you are using for inputs:",
+          "uuid": "a3336d26-a3ad-40c4-8694-e0d50f766001"
+        },
+        "a483d188-27e8-441e-a826-e17771c6c3e6": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "New question",
+          "uuid": "a483d188-27e8-441e-a826-e17771c6c3e6"
+        },
+        "a4c73c57-8d62-4bfe-ae07-3ec0cd81bee6": {
+          "annotations": [],
+          "answerUuids": [
+            "1f552cf1-0e79-40a8-a91a-47920312f95b",
+            "3333ca27-a5a8-4be1-8e05-96ce1c2dbca6"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Subversion",
+          "uuid": "a4c73c57-8d62-4bfe-ae07-3ec0cd81bee6"
+        },
+        "a542a2a4-c427-4c0d-85da-4971cced0372": {
+          "annotations": [],
+          "answerUuids": [
+            "7379f022-f382-4565-a70d-b68fbcdec7ba",
+            "28e8fced-58f7-4cf8-ac3d-56e9e7067479",
+            "cb5edd7b-a01f-455f-ac82-08fa30a82885"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Install the software",
+          "uuid": "a542a2a4-c427-4c0d-85da-4971cced0372"
+        },
+        "a6308bd3-294f-40c4-804b-5a9bb2ddf204": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "a6308bd3-294f-40c4-804b-5a9bb2ddf204"
+        },
+        "a9a73460-9416-41db-a0d2-42a10b3ff327": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/processorRequirements"
+            }
+          ],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": "Minimum processor (CPU) requirements to execute a sample input",
+          "title": "Please describe the expected minimum processor requirements to execute your software",
+          "uuid": "a9a73460-9416-41db-a0d2-42a10b3ff327",
+          "valueType": "StringQuestionValueType"
+        },
+        "ab27129f-786d-4490-b758-2056404a5131": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "ab27129f-786d-4490-b758-2056404a5131",
+          "valueType": "StringQuestionValueType"
+        },
+        "ab9d5f0b-980f-4f18-9fbc-c0a5f4b62f68": {
+          "annotations": [],
+          "answerUuids": [
+            "d6ffcac2-0f68-4338-814f-bc83d1b9aa24",
+            "d8112873-338e-4557-87e6-726b1df44d50"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Test the software",
+          "uuid": "ab9d5f0b-980f-4f18-9fbc-c0a5f4b62f68"
+        },
+        "ac635be0-839d-4bb2-aa90-6eb2e80c2ed6": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/citation"
+            }
+          ],
+          "answerUuids": [
+            "463c3b6e-cf96-43e5-a189-f840f7ea93db",
+            "b62bb0f8-d9b2-4f8a-a13e-7e8572ba94a7"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Do you include citation information (i.e. how to cite your software in the form of citation.cff, codemeta.json or bibtex)?",
+          "uuid": "ac635be0-839d-4bb2-aa90-6eb2e80c2ed6"
+        },
+        "b362e7b1-d39f-4160-8e57-9fc5870263be": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/identifier"
+            }
+          ],
+          "answerUuids": [
+            "e8eb9f45-8914-4458-aca9-8e5c0e51ddd0",
+            "2fc0bdb8-2e48-4598-91b9-5cb71f03e152"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": "For more information on PIDs and the differences between the various types (intrinsic, extrinsic, etc), please see [here](https://www.softwareheritage.org/2020/07/09/intrinsic-vs-extrinsic-identifiers/).",
+          "title": "Do the releases have a persistent global unique identifier (such as release on Zenodo with DOI, snapshot or/and release referenced on Software Heritage with SWHID)?",
+          "uuid": "b362e7b1-d39f-4160-8e57-9fc5870263be"
+        },
+        "b3c5ce60-1607-47d0-9c79-870350fa31a8": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/supportingData"
+            }
+          ],
+          "answerUuids": [
+            "adfa7d9d-2825-478d-8a02-0c09bb33f468",
+            "9d5531e5-2ec7-4e07-8785-2191c3a823eb",
+            "b9181fac-560d-4e41-83c5-c9ea242abc44"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": "The main goal of this question is to ensure that all information necessary to actually test the software is made available and accessible.\n\nIt should be noted that, depending on the software itself, the \"Not applicable\" response is valid (e.g. no parameters or input data expected).",
+          "title": "Are sample data and/or parameters that can be used to test the software available with the source code?",
+          "uuid": "b3c5ce60-1607-47d0-9c79-870350fa31a8"
+        },
+        "b782084a-ce32-41cf-a032-9c6405afdda1": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "b782084a-ce32-41cf-a032-9c6405afdda1",
+          "valueType": "StringQuestionValueType"
+        },
+        "c4775658-164d-41f9-a2ff-44709d2e0396": {
+          "annotations": [],
+          "answerUuids": [],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "c4775658-164d-41f9-a2ff-44709d2e0396"
+        },
+        "c581a508-f2b4-403b-88d5-e3921457f264": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#frontEndTesting"
+            }
+          ],
+          "answerUuids": [
+            "d7ae8afe-aa93-4615-802e-7866f56ce11b",
+            "8ec53615-8c1b-41c6-aafe-0fcd4e702204",
+            "ac049c0d-593e-4d60-9fda-b505a62f0ee9"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Frontend - GUI",
+          "uuid": "c581a508-f2b4-403b-88d5-e3921457f264"
+        },
+        "ccf5634b-6279-409c-8b64-f617ee7f345a": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/discussionUrl"
+            }
+          ],
+          "answerUuids": [
+            "6f85e7b0-c1d1-490c-94d4-7724bd550a4a",
+            "550d307b-1620-4b45-8af9-025648d310e9"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": "This could be a simple sentence in the software documentation, stating an email, or an issue tracker, or a direct messaging protocol, or even a statement that the software is provided as-is and bug reporting/issues are not available.",
+          "title": "Is there a documented way to report bugs and other usability issues?",
+          "uuid": "ccf5634b-6279-409c-8b64-f617ee7f345a"
+        },
+        "cd40edd5-4d47-4e1b-8e38-18e87475df9e": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "cd40edd5-4d47-4e1b-8e38-18e87475df9e",
+          "valueType": "StringQuestionValueType"
+        },
+        "d045ef71-093f-48d5-b685-d9ea79c06ec2": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#unitTesting"
+            }
+          ],
+          "answerUuids": [
+            "d43364dc-6bbf-48f6-b06f-5453dbbcb008",
+            "f0a05169-d981-449a-a1be-93d444643225",
+            "6268068b-e917-49a5-9926-235a5249a702"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Unit",
+          "uuid": "d045ef71-093f-48d5-b685-d9ea79c06ec2"
+        },
+        "d0cf7900-28f4-447c-9d23-3fa010424233": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/supportingData"
+            }
+          ],
+          "answerUuids": [
+            "ed416906-5b88-404c-950c-74422e81696e",
+            "c5af3691-bd28-437b-bf4d-59c49d600c22"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Do you provide input and output examples that can be used to reproduce the functioning of your software?",
+          "uuid": "d0cf7900-28f4-447c-9d23-3fa010424233"
+        },
+        "d2248d9c-de3e-4fd9-ab14-51b263c78702": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#lintingTesting"
+            }
+          ],
+          "answerUuids": [
+            "7832c332-6862-4c2c-8054-2e41bd71bc30",
+            "b7aa70a5-06aa-4344-954a-d25f40efd2ee",
+            "a2b15c6f-4675-4adb-b55f-37ee2dbfb89c"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Linting",
+          "uuid": "d2248d9c-de3e-4fd9-ab14-51b263c78702"
+        },
+        "d60fe27f-5fdc-4182-87de-17e8509aaef2": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://bioschemas.org/output"
+            }
+          ],
+          "answerUuids": [
+            "2af6b498-d046-49b5-86fa-a9594d82982c",
+            "ee80ac49-f46b-49cb-bfff-9d24387b52ed"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Do you use well-established standard output formats?",
+          "uuid": "d60fe27f-5fdc-4182-87de-17e8509aaef2"
+        },
+        "d6d67da4-f602-437c-874c-17d2701a1e48": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#regressionTesting"
+            }
+          ],
+          "answerUuids": [
+            "0228ec7c-5088-4b60-a027-db009091df3e",
+            "87f970dd-a71c-4e8b-b781-645c59d2679f",
+            "978c2fd8-96ed-4464-8244-6e00892664e4"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Regression",
+          "uuid": "d6d67da4-f602-437c-874c-17d2701a1e48"
+        },
+        "d86ca238-e2fc-41cf-b4ea-13dd903c0453": {
+          "annotations": [],
+          "answerUuids": [
+            "b58c3e29-f373-4121-bfe1-7878b53aa656",
+            "fb09e051-afb5-44fa-98e6-8a772e7e4562",
+            "3100dfe6-ef85-4206-9d3e-11e8c32f7637"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Is the software available through a particular repository (such as GitHub, gitlab etc), website, etc. ",
+          "title": "How can the software be accessed by third parties?",
+          "uuid": "d86ca238-e2fc-41cf-b4ea-13dd903c0453"
+        },
+        "d95ac6aa-e3b8-4591-a91f-f00c3193d5a7": {
+          "annotations": [],
+          "expertUuids": [],
+          "itemTemplateQuestionUuids": [
+            "d045ef71-093f-48d5-b685-d9ea79c06ec2",
+            "50bbb11d-1046-4e1c-97e4-fb8277cff3ef",
+            "eed9e561-04d2-4fb6-a52d-7d96e9b6e0a8",
+            "267e8c3a-71cc-49bd-9e1c-9d5841f12046",
+            "d2248d9c-de3e-4fd9-ab14-51b263c78702",
+            "d6d67da4-f602-437c-874c-17d2701a1e48",
+            "c581a508-f2b4-403b-88d5-e3921457f264"
+          ],
+          "questionType": "ListQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": "This questions aims to collect all the different types of software testing that are planned and/or implemented.",
+          "title": "What type of testing do you use?",
+          "uuid": "d95ac6aa-e3b8-4591-a91f-f00c3193d5a7"
+        },
+        "dc7b8ef8-aa1d-4abf-9a12-f3bbf52f59af": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://schema.org/softwareVersion"
+            }
+          ],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "What is the version of the current release",
+          "uuid": "dc7b8ef8-aa1d-4abf-9a12-f3bbf52f59af",
+          "valueType": "StringQuestionValueType"
+        },
+        "e130053f-10fe-4364-b868-ea243d27f463": {
+          "annotations": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "choiceUuids": [
+            "bc462c4c-633b-45d7-9064-d97dcffe5436",
+            "2654ad93-762e-4e8e-84e8-6ff49561a43d",
+            "1f9fa8fd-d740-48f2-a444-24fc84636d67",
+            "e1b844d7-05d7-4031-98f6-740ddeebd560"
+          ],
+          "expertUuids": [],
+          "questionType": "MultiChoiceQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "7097a096-80cc-4691-8a53-5ca54a336212",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": "These include documenting specific requirements, releases of an operating system, a combination of system-level libraries, or other resources that cannot be specified by language-specific tooling.",
+          "title": "Which solutions do you use to capture system-level or non-language-specific dependencies?",
+          "uuid": "e130053f-10fe-4364-b868-ea243d27f463"
+        },
+        "ec18c4ff-1f3e-444b-8d40-8ce2c1026bdb": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/memoryRequirements"
+            }
+          ],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": "Minimum memory (RAM) requirements to execute a sample input",
+          "title": "Please describe the expected minimum memory requirements to execute your software",
+          "uuid": "ec18c4ff-1f3e-444b-8d40-8ce2c1026bdb",
+          "valueType": "StringQuestionValueType"
+        },
+        "ec962a2e-07a2-43ad-b997-9866899e0f36": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available",
+          "uuid": "ec962a2e-07a2-43ad-b997-9866899e0f36",
+          "valueType": "StringQuestionValueType"
+        },
+        "eed9e561-04d2-4fb6-a52d-7d96e9b6e0a8": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#functionalTesting"
+            }
+          ],
+          "answerUuids": [
+            "7482e4bd-3e99-4372-8363-3b3fec03288b",
+            "d47368e2-62be-4bbb-b029-11f1beec9ccf",
+            "8b65b5e0-c9af-4a6d-a4ab-8ce31c46274d"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Functional",
+          "uuid": "eed9e561-04d2-4fb6-a52d-7d96e9b6e0a8"
+        },
+        "f3cc4cfb-ebfa-4845-9caa-ce9eecba0b77": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#hasDeveloperDocumentation"
+            }
+          ],
+          "answerUuids": [
+            "e5862e8b-8bba-4667-9b48-f98dc22e2fd1",
+            "cc374e44-8a3a-4238-868f-5c1af71096f3"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "7097a096-80cc-4691-8a53-5ca54a336212"
+          ],
+          "text": null,
+          "title": "Programmers documentation",
+          "uuid": "f3cc4cfb-ebfa-4845-9caa-ce9eecba0b77"
+        },
+        "f4e377f4-fe0a-4d56-bc49-7fe835fa78b5": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available:",
+          "uuid": "f4e377f4-fe0a-4d56-bc49-7fe835fa78b5",
+          "valueType": "StringQuestionValueType"
+        },
+        "f55943d2-5c95-49b6-ba8f-a56ba76fc484": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/targetProduct"
+            }
+          ],
+          "answerUuids": [
+            "27efa00f-b9d4-4134-9d36-e29f9037f9fb",
+            "65a96f96-109a-4f90-883f-843d19d8ac45"
+          ],
+          "expertUuids": [],
+          "questionType": "OptionsQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Do you provide releases of your software?",
+          "uuid": "f55943d2-5c95-49b6-ba8f-a56ba76fc484"
+        },
+        "f55c998a-eb42-4a8e-9860-7fbb5bfb9118": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "Please provide the corresponding URL, if available (for more than one, please add multiple rows)",
+          "uuid": "f55c998a-eb42-4a8e-9860-7fbb5bfb9118",
+          "valueType": "StringQuestionValueType"
+        },
+        "f8ae092b-55ac-486c-a90b-61328bfaa83f": {
+          "annotations": [],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": null,
+          "title": "Please provide the URL, if available",
+          "uuid": "f8ae092b-55ac-486c-a90b-61328bfaa83f",
+          "valueType": "StringQuestionValueType"
+        },
+        "faa4ff6d-a2bc-4589-ae36-16d04fb1847c": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "https://schema.org/softwareRequirements"
+            }
+          ],
+          "expertUuids": [],
+          "questionType": "ValueQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "801de771-b2ab-40d7-bea7-63760c7d2765",
+          "tagUuids": [
+            "e864aabe-4378-494c-9881-051481c98ac6",
+            "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+          ],
+          "text": "For instance Maven (for Java), requirements.txt or environment.yml (Python), package.json (JS). Please use `NA` if that's not applicable in your case",
+          "title": "How do you define language-specific dependencies of your software and their version? ",
+          "uuid": "faa4ff6d-a2bc-4589-ae36-16d04fb1847c",
+          "valueType": "StringQuestionValueType"
+        },
+        "fdfcc19b-197f-406f-b9ba-dea60de2dcc8": {
+          "annotations": [
+            {
+              "key": "maSMP",
+              "value": "http://www.semanticweb.org/oxg/ontologies/2023/1/maSMP#hasVersionControlSystem"
+            }
+          ],
+          "expertUuids": [],
+          "itemTemplateQuestionUuids": [
+            "5245cccb-c7bb-4480-8940-f4280b2df58d",
+            "5e2c59ad-c479-4e92-ac81-f1e6e5fe85ec",
+            "a4c73c57-8d62-4bfe-ae07-3ec0cd81bee6",
+            "2d8ac64e-c52b-46ee-bdaa-2566c7c919ad",
+            "731a72e0-ba36-4f41-ab2a-c52df607e89f"
+          ],
+          "questionType": "ListQuestion",
+          "referenceUuids": [],
+          "requiredPhaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+          "tagUuids": [
+            "3eec6a3a-852a-4621-accd-c62fb3d67043",
+            "e864aabe-4378-494c-9881-051481c98ac6"
+          ],
+          "text": null,
+          "title": "What version control system do you use?",
+          "uuid": "fdfcc19b-197f-406f-b9ba-dea60de2dcc8"
+        }
+      },
+      "references": {},
+      "resourceCollections": {},
+      "resourcePages": {},
+      "tags": {
+        "5a2ef082-25ef-483a-93de-119f9db8a0ad": {
+          "annotations": [],
+          "color": "#F39C12",
+          "description": "Add context (maybe from the RDA FAIR4RS)",
+          "name": "Interoperable",
+          "uuid": "5a2ef082-25ef-483a-93de-119f9db8a0ad"
+        },
+        "7097a096-80cc-4691-8a53-5ca54a336212": {
+          "annotations": [],
+          "color": "#F1C40F",
+          "description": "Add context (maybe from the RDA FAIR4RS)",
+          "name": "Accessible",
+          "uuid": "7097a096-80cc-4691-8a53-5ca54a336212"
+        },
+        "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24": {
+          "annotations": [],
+          "color": "#3498DB",
+          "description": "Add context (maybe from the RDA FAIR4RS)",
+          "name": "Findable",
+          "uuid": "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24"
+        },
+        "e864aabe-4378-494c-9881-051481c98ac6": {
+          "annotations": [],
+          "color": "#E74C3C",
+          "description": "Add context (maybe from the RDA FAIR4RS)",
+          "name": "Reusable",
+          "uuid": "e864aabe-4378-494c-9881-051481c98ac6"
+        }
+      }
+    },
+    "integrationUuids": [
+      "2f99881b-5c88-4049-8325-c86fce010118",
+      "2a6d31d0-f090-4376-943b-4bb799818fcb",
+      "bbdecf2e-a170-4c8b-a1dc-7a1354f6793d",
+      "9e7394f9-f83f-449f-9d8f-406c3a714035",
+      "2454b6d9-8d94-4d14-a875-01f19f000774"
+    ],
+    "metricUuids": [],
+    "phaseUuids": [
+      "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+      "cccd928f-f0ef-4a49-acdf-f9aef960e697",
+      "801de771-b2ab-40d7-bea7-63760c7d2765",
+      "2da06448-ddbb-4714-9864-6fe1dc56a4a4",
+      "5e67b259-cf46-4772-a2c1-fa85f4b4f5e4"
+    ],
+    "resourceCollectionUuids": [],
+    "tagUuids": [
+      "7d8efc1b-c3b5-466b-9653-ea45e4fc2a24",
+      "7097a096-80cc-4691-8a53-5ca54a336212",
+      "5a2ef082-25ef-483a-93de-119f9db8a0ad",
+      "e864aabe-4378-494c-9881-051481c98ac6"
+    ],
+    "uuid": "d01803f7-fc51-4905-9aef-c620fa83a78b"
+  },
+  "metamodelVersion": 14,
+  "organization": {
+    "affiliations": [],
+    "description": "Wizard for composing Software Management Plans",
+    "name": "Software Management Wizard",
+    "organizationId": "smw"
+  },
+  "package": {
+    "createdAt": "2023-11-03T16:05:06.636385Z",
+    "description": "Elixir Software Management Plan",
+    "id": "smw:smp:0.0.18",
+    "kmId": "smp",
+    "name": "Software Management Plan",
+    "organization": null,
+    "organizationId": "smw",
+    "remoteLatestVersion": null,
+    "version": "0.0.18",
+    "versions": []
+  },
+  "questionnaire": {
+    "createdAt": "2024-09-16T08:16:41.514702Z",
+    "createdBy": {
+      "active": true,
+      "affiliation": null,
+      "createdAt": "2024-09-16T08:15:07.419477076Z",
+      "email": "yaoban@unimelb.edu.au",
+      "firstName": "Yao-Ban",
+      "imageUrl": null,
+      "lastName": "Chan",
+      "permissions": [
+        "PM_READ_PERM",
+        "QTN_PERM",
+        "DOC_TML_READ_PERM",
+        "SUBM_PERM"
+      ],
+      "role": "researcher",
+      "sources": [
+        "ls-login"
+      ],
+      "updatedAt": "2024-09-16T08:15:07.419477076Z",
+      "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+    },
+    "description": null,
+    "labels": {},
+    "name": "Network tree reconciliation",
+    "phaseUuid": "a6bcc83c-2e83-4091-8dc6-f0f4a5475b48",
+    "projectTags": [],
+    "replies": {
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.1b2706cc-38d8-479c-9341-d98e5e8df6a6": {
+        "createdAt": "2024-09-16T08:20:08.42931259Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "23da4a6a-a7bf-4b88-8ee4-7c024f60d8e8"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.42227f44-024c-40df-b46b-43159dbbc4f9": {
+        "createdAt": "2024-09-16T08:20:17.094961546Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "ItemListReply",
+          "value": [
+            "687fcd31-8feb-45c2-90ca-31bc83381aed"
+          ]
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.42227f44-024c-40df-b46b-43159dbbc4f9.687fcd31-8feb-45c2-90ca-31bc83381aed.43203a16-a208-432e-8bfa-12f795c150db": {
+        "createdAt": "2024-09-16T08:20:29.52782391Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "7c335f91-e191-452d-80cb-9981721aded5"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.42227f44-024c-40df-b46b-43159dbbc4f9.687fcd31-8feb-45c2-90ca-31bc83381aed.5f6b134d-58a7-4fb7-83ed-629c5bf308d4": {
+        "createdAt": "2024-09-16T08:20:25.101211253Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "58a790bc-2e4c-4ce9-b719-b73e23180f33"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.42227f44-024c-40df-b46b-43159dbbc4f9.687fcd31-8feb-45c2-90ca-31bc83381aed.73e97271-49dd-45b7-8567-61aedc69b850": {
+        "createdAt": "2024-09-16T08:20:27.305838143Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "2736b675-baed-463d-a42a-87f6f6b5f136"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.42227f44-024c-40df-b46b-43159dbbc4f9.687fcd31-8feb-45c2-90ca-31bc83381aed.a542a2a4-c427-4c0d-85da-4971cced0372": {
+        "createdAt": "2024-09-16T08:20:32.335462366Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "28e8fced-58f7-4cf8-ac3d-56e9e7067479"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.42227f44-024c-40df-b46b-43159dbbc4f9.687fcd31-8feb-45c2-90ca-31bc83381aed.ab9d5f0b-980f-4f18-9fbc-c0a5f4b62f68": {
+        "createdAt": "2024-09-16T08:20:22.643560678Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "d8112873-338e-4557-87e6-726b1df44d50"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d": {
+        "createdAt": "2024-09-16T08:19:10.552395923Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "ItemListReply",
+          "value": [
+            "291f0aab-8853-413a-92e4-bc96f4ec9dd5"
+          ]
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.031b69b6-87ce-4572-9830-d782f952b3d5": {
+        "createdAt": "2024-09-16T08:19:41.736243876Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "c3814f86-b95f-43a6-adf9-7678d692d3c3"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.0fd6ac3e-8432-41eb-948e-5c4f21f7770a": {
+        "createdAt": "2024-09-16T08:19:54.406753606Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "ec7be65a-cdfa-4d3c-b791-84809a154720"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.216da444-1c0e-442f-a579-b7ebe1bf9f7a": {
+        "createdAt": "2024-09-16T08:20:03.642197301Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "9e917495-e064-4961-b6e8-4c873c696656"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.3340c6cc-c17b-49c3-b1b0-37b202bf246b": {
+        "createdAt": "2024-09-16T08:19:13.188904508Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "7be00246-4ea7-4522-ae40-51e917679dc0"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.3340c6cc-c17b-49c3-b1b0-37b202bf246b.7be00246-4ea7-4522-ae40-51e917679dc0.f4e377f4-fe0a-4d56-bc49-7fe835fa78b5": {
+        "createdAt": "2024-09-16T08:19:28.535183516Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "StringReply",
+          "value": "https://github.com/yao-ban/network-tree-reconciliation/blob/main/README.md"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.60a36367-0be7-4491-9508-82bc569cb878": {
+        "createdAt": "2024-09-16T08:19:44.10444507Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "e5a422a2-7fd0-4b2a-adb7-fdb9d1d66fbc"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.60a36367-0be7-4491-9508-82bc569cb878.e5a422a2-7fd0-4b2a-adb7-fdb9d1d66fbc.ab27129f-786d-4490-b758-2056404a5131": {
+        "createdAt": "2024-09-16T08:19:47.291675975Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "StringReply",
+          "value": "https://github.com/yao-ban/network-tree-reconciliation/blob/main/README.md"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.7b72705c-7ac1-46b0-ad28-a455dc158a41": {
+        "createdAt": "2024-09-16T08:20:00.048565768Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "93a8989f-7c3f-42ff-b03c-0ace776d3e57"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.8a4020fd-359b-4afd-b72a-a18d8a5b84d5": {
+        "createdAt": "2024-09-16T08:19:50.751837271Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "f644b549-ff55-42ec-b7d6-ace739d812ce"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.95cfac46-59c6-4f60-bac8-be24a5a4cab2": {
+        "createdAt": "2024-09-16T08:19:57.153692431Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "766974e9-6ce4-47b1-a585-dd66759fa450"
+        }
+      },
+      "047af6eb-71b6-48f0-9899-1b0feb66218b.9e518fae-ea04-4574-b721-b05e97c2f92d.291f0aab-8853-413a-92e4-bc96f4ec9dd5.f3cc4cfb-ebfa-4845-9caa-ce9eecba0b77": {
+        "createdAt": "2024-09-16T08:19:37.833852492Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "cc374e44-8a3a-4238-868f-5c1af71096f3"
+        }
+      },
+      "6230f637-cf55-4055-b2e7-6cde6711aa51.22c70672-edd2-46cd-a422-bb857bc46def": {
+        "createdAt": "2024-09-16T08:17:42.918365566Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "fbe41b6b-d976-46b6-a686-5df9023e08b4"
+        }
+      },
+      "6230f637-cf55-4055-b2e7-6cde6711aa51.56adb0ca-3e80-45fa-8fbe-1f3508d6032b": {
+        "createdAt": "2024-09-16T08:17:14.05050695Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "StringReply",
+          "value": "Network tree reconciliation"
+        }
+      },
+      "6230f637-cf55-4055-b2e7-6cde6711aa51.d86ca238-e2fc-41cf-b4ea-13dd903c0453": {
+        "createdAt": "2024-09-16T08:17:16.375799662Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "b58c3e29-f373-4121-bfe1-7878b53aa656"
+        }
+      },
+      "6230f637-cf55-4055-b2e7-6cde6711aa51.d86ca238-e2fc-41cf-b4ea-13dd903c0453.b58c3e29-f373-4121-bfe1-7878b53aa656.843c467a-de1c-475c-9b01-aec90a318716": {
+        "createdAt": "2024-09-16T08:17:30.054858051Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "StringReply",
+          "value": "https://github.com/yao-ban/network-tree-reconciliation"
+        }
+      },
+      "7426b2df-f9ed-4e65-a978-5995183e4e63.4e393382-d411-4e58-8e0e-77de41c253e8": {
+        "createdAt": "2024-09-16T08:26:26.342638207Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "ItemListReply",
+          "value": [
+            "e5f178b7-2e47-4939-8239-eef23d58270a"
+          ]
+        }
+      },
+      "7426b2df-f9ed-4e65-a978-5995183e4e63.4e393382-d411-4e58-8e0e-77de41c253e8.e5f178b7-2e47-4939-8239-eef23d58270a.6fd3e504-2a60-4071-8958-1a92644b58cb": {
+        "createdAt": "2024-09-16T08:26:14.541953678Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "IntegrationReply",
+          "value": {
+            "id": "Ubuntu",
+            "type": "IntegrationType",
+            "value": "Ubuntu"
+          }
+        }
+      },
+      "7426b2df-f9ed-4e65-a978-5995183e4e63.ccf5634b-6279-409c-8b64-f617ee7f345a": {
+        "createdAt": "2024-09-16T08:26:54.322327643Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "550d307b-1620-4b45-8af9-025648d310e9"
+        }
+      },
+      "7426b2df-f9ed-4e65-a978-5995183e4e63.d0cf7900-28f4-447c-9d23-3fa010424233": {
+        "createdAt": "2024-09-16T08:26:43.396670221Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "c5af3691-bd28-437b-bf4d-59c49d600c22"
+        }
+      },
+      "7426b2df-f9ed-4e65-a978-5995183e4e63.f55943d2-5c95-49b6-ba8f-a56ba76fc484": {
+        "createdAt": "2024-09-16T08:24:19.477528454Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "65a96f96-109a-4f90-883f-843d19d8ac45"
+        }
+      },
+      "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf.53977216-eca7-4856-ab86-34f31fd3814f": {
+        "createdAt": "2024-09-16T08:27:57.143889955Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "a1f80749-f059-4bcf-a83a-225f579804d2"
+        }
+      },
+      "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf.56c076d1-1f9d-4562-beb0-efa643df1dc7": {
+        "createdAt": "2024-09-16T08:27:53.676516844Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "d17cbf5c-fab8-443f-9cef-a2de54dfcc3c"
+        }
+      },
+      "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf.ac635be0-839d-4bb2-aa90-6eb2e80c2ed6": {
+        "createdAt": "2024-09-16T08:27:31.332511451Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "463c3b6e-cf96-43e5-a189-f840f7ea93db"
+        }
+      },
+      "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf.b362e7b1-d39f-4160-8e57-9fc5870263be": {
+        "createdAt": "2024-09-16T08:27:47.40673011Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "2fc0bdb8-2e48-4598-91b9-5cb71f03e152"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.b3c5ce60-1607-47d0-9c79-870350fa31a8": {
+        "createdAt": "2024-09-16T08:22:32.466526784Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "9d5531e5-2ec7-4e07-8785-2191c3a823eb"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7": {
+        "createdAt": "2024-09-16T08:21:43.505041933Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "ItemListReply",
+          "value": [
+            "9f2b9dff-40ec-431d-8820-f593397657b8"
+          ]
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7.9f2b9dff-40ec-431d-8820-f593397657b8.267e8c3a-71cc-49bd-9e1c-9d5841f12046": {
+        "createdAt": "2024-09-16T08:22:00.192191056Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "02173107-55dd-401b-ba01-d54e69ac63b2"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7.9f2b9dff-40ec-431d-8820-f593397657b8.50bbb11d-1046-4e1c-97e4-fb8277cff3ef": {
+        "createdAt": "2024-09-16T08:21:55.827639257Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "f9456ddc-e163-4510-8ef6-d314b1067f9d"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7.9f2b9dff-40ec-431d-8820-f593397657b8.c581a508-f2b4-403b-88d5-e3921457f264": {
+        "createdAt": "2024-09-16T08:22:08.449740953Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "ac049c0d-593e-4d60-9fda-b505a62f0ee9"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7.9f2b9dff-40ec-431d-8820-f593397657b8.d045ef71-093f-48d5-b685-d9ea79c06ec2": {
+        "createdAt": "2024-09-16T08:21:53.445223114Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "d43364dc-6bbf-48f6-b06f-5453dbbcb008"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7.9f2b9dff-40ec-431d-8820-f593397657b8.d2248d9c-de3e-4fd9-ab14-51b263c78702": {
+        "createdAt": "2024-09-16T08:22:04.333691628Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "7832c332-6862-4c2c-8054-2e41bd71bc30"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7.9f2b9dff-40ec-431d-8820-f593397657b8.d6d67da4-f602-437c-874c-17d2701a1e48": {
+        "createdAt": "2024-09-16T08:22:06.543825953Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "978c2fd8-96ed-4464-8244-6e00892664e4"
+        }
+      },
+      "968db515-1a6d-4518-97fa-810a9fca7dff.d95ac6aa-e3b8-4591-a91f-f00c3193d5a7.9f2b9dff-40ec-431d-8820-f593397657b8.eed9e561-04d2-4fb6-a52d-7d96e9b6e0a8": {
+        "createdAt": "2024-09-16T08:21:57.763552532Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "7482e4bd-3e99-4372-8363-3b3fec03288b"
+        }
+      },
+      "c66003a5-1a4d-49ea-8f3b-c31321e7956e.074948ac-4abb-4438-bd96-e420b10164f4": {
+        "createdAt": "2024-09-16T08:23:21.478097367Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "ItemListReply",
+          "value": [
+            "1921622b-1acd-4a08-b441-f44a01a6c77b",
+            "cde3c1a2-ddf2-4ccd-a49d-8af04ead9880",
+            "241bb090-5d51-4703-b239-7812072c7f02"
+          ]
+        }
+      },
+      "c66003a5-1a4d-49ea-8f3b-c31321e7956e.074948ac-4abb-4438-bd96-e420b10164f4.1921622b-1acd-4a08-b441-f44a01a6c77b.7014e172-d0ee-47b6-a645-a0a11feab854": {
+        "createdAt": "2024-09-16T08:23:07.947291388Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "IntegrationReply",
+          "value": {
+            "id": "C++",
+            "type": "IntegrationType",
+            "value": "C++"
+          }
+        }
+      },
+      "c66003a5-1a4d-49ea-8f3b-c31321e7956e.074948ac-4abb-4438-bd96-e420b10164f4.241bb090-5d51-4703-b239-7812072c7f02.7014e172-d0ee-47b6-a645-a0a11feab854": {
+        "createdAt": "2024-09-16T08:23:45.475101442Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "IntegrationReply",
+          "value": {
+            "id": "R",
+            "type": "IntegrationType",
+            "value": "R"
+          }
+        }
+      },
+      "c66003a5-1a4d-49ea-8f3b-c31321e7956e.074948ac-4abb-4438-bd96-e420b10164f4.cde3c1a2-ddf2-4ccd-a49d-8af04ead9880.7014e172-d0ee-47b6-a645-a0a11feab854": {
+        "createdAt": "2024-09-16T08:23:19.830555501Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "IntegrationReply",
+          "value": {
+            "id": "Python 3",
+            "type": "IntegrationType",
+            "value": "Python 3"
+          }
+        }
+      },
+      "c66003a5-1a4d-49ea-8f3b-c31321e7956e.78e2cd17-1d97-4a14-80f4-de6c9cac0ef7": {
+        "createdAt": "2024-09-16T08:22:40.473053522Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "e74d98db-9e06-4f0b-859c-b807767662b3"
+        }
+      },
+      "c66003a5-1a4d-49ea-8f3b-c31321e7956e.d60fe27f-5fdc-4182-87de-17e8509aaef2": {
+        "createdAt": "2024-09-16T08:22:43.305235179Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "ee80ac49-f46b-49cb-bfff-9d24387b52ed"
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.23538b8f-de09-4143-98d5-a234ea5144b8": {
+        "createdAt": "2024-09-16T08:24:07.60287906Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "1a5e79fd-fc09-45a5-a645-f5aa42c5ed54"
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.9b590484-9b76-4a94-8fed-22dd33f7a302": {
+        "createdAt": "2024-09-16T08:23:49.383465811Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "c80ad2f2-c187-4fba-93c4-0898bccf2d39"
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.9b590484-9b76-4a94-8fed-22dd33f7a302.c80ad2f2-c187-4fba-93c4-0898bccf2d39.fdfcc19b-197f-406f-b9ba-dea60de2dcc8": {
+        "createdAt": "2024-09-16T08:23:51.434726298Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "ItemListReply",
+          "value": [
+            "4db6252f-964e-4a36-9289-ce4f483a1ff5"
+          ]
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.9b590484-9b76-4a94-8fed-22dd33f7a302.c80ad2f2-c187-4fba-93c4-0898bccf2d39.fdfcc19b-197f-406f-b9ba-dea60de2dcc8.4db6252f-964e-4a36-9289-ce4f483a1ff5.2d8ac64e-c52b-46ee-bdaa-2566c7c919ad": {
+        "createdAt": "2024-09-16T08:23:59.181897071Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "f911934c-a4c4-47d2-8630-2ead5c9105bd"
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.9b590484-9b76-4a94-8fed-22dd33f7a302.c80ad2f2-c187-4fba-93c4-0898bccf2d39.fdfcc19b-197f-406f-b9ba-dea60de2dcc8.4db6252f-964e-4a36-9289-ce4f483a1ff5.5245cccb-c7bb-4480-8940-f4280b2df58d": {
+        "createdAt": "2024-09-16T08:23:53.464643089Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "cdefafc7-48f4-4a1e-ac88-dba2638cf84e"
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.9b590484-9b76-4a94-8fed-22dd33f7a302.c80ad2f2-c187-4fba-93c4-0898bccf2d39.fdfcc19b-197f-406f-b9ba-dea60de2dcc8.4db6252f-964e-4a36-9289-ce4f483a1ff5.5e2c59ad-c479-4e92-ac81-f1e6e5fe85ec": {
+        "createdAt": "2024-09-16T08:23:55.364714406Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "a031948f-7831-4169-8b8e-bd8bad4b7513"
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.9b590484-9b76-4a94-8fed-22dd33f7a302.c80ad2f2-c187-4fba-93c4-0898bccf2d39.fdfcc19b-197f-406f-b9ba-dea60de2dcc8.4db6252f-964e-4a36-9289-ce4f483a1ff5.731a72e0-ba36-4f41-ab2a-c52df607e89f": {
+        "createdAt": "2024-09-16T08:27:23.283950685Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "StringReply",
+          "value": "None"
+        }
+      },
+      "e4daf4a0-4024-4427-98e6-5e40fb21765c.9b590484-9b76-4a94-8fed-22dd33f7a302.c80ad2f2-c187-4fba-93c4-0898bccf2d39.fdfcc19b-197f-406f-b9ba-dea60de2dcc8.4db6252f-964e-4a36-9289-ce4f483a1ff5.a4c73c57-8d62-4bfe-ae07-3ec0cd81bee6": {
+        "createdAt": "2024-09-16T08:23:56.834707396Z",
+        "createdBy": {
+          "firstName": "Yao-Ban",
+          "gravatarHash": "ffb3dc0138f3513a5457c987edce5112",
+          "imageUrl": null,
+          "lastName": "Chan",
+          "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+        },
+        "value": {
+          "type": "AnswerReply",
+          "value": "3333ca27-a5a8-4be1-8e05-96ce1c2dbca6"
+        }
+      }
+    },
+    "updatedAt": "2024-09-16T08:34:38.891382Z",
+    "uuid": "48b2ff84-1ba4-4152-9662-0443f2ce8f71",
+    "versionUuid": null,
+    "versions": []
+  },
+  "report": {
+    "chapterReports": [
+      {
+        "chapterUuid": "6230f637-cf55-4055-b2e7-6cde6711aa51",
+        "indications": [
+          {
+            "answeredQuestions": 3,
+            "indicationType": "PhasesAnsweredIndication",
+            "unansweredQuestions": 0
+          },
+          {
+            "answeredQuestions": 4,
+            "indicationType": "AnsweredIndication",
+            "unansweredQuestions": 0
+          }
+        ],
+        "metrics": []
+      },
+      {
+        "chapterUuid": "047af6eb-71b6-48f0-9899-1b0feb66218b",
+        "indications": [
+          {
+            "answeredQuestions": 3,
+            "indicationType": "PhasesAnsweredIndication",
+            "unansweredQuestions": 0
+          },
+          {
+            "answeredQuestions": 19,
+            "indicationType": "AnsweredIndication",
+            "unansweredQuestions": 0
+          }
+        ],
+        "metrics": []
+      },
+      {
+        "chapterUuid": "968db515-1a6d-4518-97fa-810a9fca7dff",
+        "indications": [
+          {
+            "answeredQuestions": 0,
+            "indicationType": "PhasesAnsweredIndication",
+            "unansweredQuestions": 0
+          },
+          {
+            "answeredQuestions": 9,
+            "indicationType": "AnsweredIndication",
+            "unansweredQuestions": 0
+          }
+        ],
+        "metrics": []
+      },
+      {
+        "chapterUuid": "c66003a5-1a4d-49ea-8f3b-c31321e7956e",
+        "indications": [
+          {
+            "answeredQuestions": 5,
+            "indicationType": "PhasesAnsweredIndication",
+            "unansweredQuestions": 0
+          },
+          {
+            "answeredQuestions": 6,
+            "indicationType": "AnsweredIndication",
+            "unansweredQuestions": 0
+          }
+        ],
+        "metrics": []
+      },
+      {
+        "chapterUuid": "e4daf4a0-4024-4427-98e6-5e40fb21765c",
+        "indications": [
+          {
+            "answeredQuestions": 8,
+            "indicationType": "PhasesAnsweredIndication",
+            "unansweredQuestions": 0
+          },
+          {
+            "answeredQuestions": 8,
+            "indicationType": "AnsweredIndication",
+            "unansweredQuestions": 0
+          }
+        ],
+        "metrics": []
+      },
+      {
+        "chapterUuid": "7426b2df-f9ed-4e65-a978-5995183e4e63",
+        "indications": [
+          {
+            "answeredQuestions": 2,
+            "indicationType": "PhasesAnsweredIndication",
+            "unansweredQuestions": 0
+          },
+          {
+            "answeredQuestions": 5,
+            "indicationType": "AnsweredIndication",
+            "unansweredQuestions": 7
+          }
+        ],
+        "metrics": []
+      },
+      {
+        "chapterUuid": "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf",
+        "indications": [
+          {
+            "answeredQuestions": 0,
+            "indicationType": "PhasesAnsweredIndication",
+            "unansweredQuestions": 0
+          },
+          {
+            "answeredQuestions": 4,
+            "indicationType": "AnsweredIndication",
+            "unansweredQuestions": 0
+          }
+        ],
+        "metrics": []
+      }
+    ],
+    "chapters": [
+      {
+        "annotations": [],
+        "questionUuids": [
+          "9e518fae-ea04-4574-b721-b05e97c2f92d",
+          "1b2706cc-38d8-479c-9341-d98e5e8df6a6",
+          "42227f44-024c-40df-b46b-43159dbbc4f9"
+        ],
+        "text": "Section regarding the **documentation** of the software",
+        "title": "Documentation",
+        "uuid": "047af6eb-71b6-48f0-9899-1b0feb66218b"
+      },
+      {
+        "annotations": [],
+        "questionUuids": [
+          "56adb0ca-3e80-45fa-8fbe-1f3508d6032b",
+          "d86ca238-e2fc-41cf-b4ea-13dd903c0453",
+          "22c70672-edd2-46cd-a422-bb857bc46def"
+        ],
+        "text": "Section regarding the **accessibility** and **license** of the software",
+        "title": "Accessibility & License",
+        "uuid": "6230f637-cf55-4055-b2e7-6cde6711aa51"
+      },
+      {
+        "annotations": [],
+        "questionUuids": [
+          "f55943d2-5c95-49b6-ba8f-a56ba76fc484",
+          "faa4ff6d-a2bc-4589-ae36-16d04fb1847c",
+          "e130053f-10fe-4364-b868-ea243d27f463",
+          "22f56a54-035f-46fb-9c2e-6f05a2ffc30e",
+          "4e393382-d411-4e58-8e0e-77de41c253e8",
+          "a9a73460-9416-41db-a0d2-42a10b3ff327",
+          "ec18c4ff-1f3e-444b-8d40-8ce2c1026bdb",
+          "09af0413-08ae-409f-be98-b11d84c88615",
+          "5bd60cac-4206-46d9-b3c3-5ac8bcf9e422",
+          "d0cf7900-28f4-447c-9d23-3fa010424233",
+          "ccf5634b-6279-409c-8b64-f617ee7f345a"
+        ],
+        "text": "Section regarding the **reproducibility** of the software",
+        "title": "Reproducibility",
+        "uuid": "7426b2df-f9ed-4e65-a978-5995183e4e63"
+      },
+      {
+        "annotations": [],
+        "questionUuids": [
+          "ac635be0-839d-4bb2-aa90-6eb2e80c2ed6",
+          "b362e7b1-d39f-4160-8e57-9fc5870263be",
+          "56c076d1-1f9d-4562-beb0-efa643df1dc7",
+          "53977216-eca7-4856-ab86-34f31fd3814f"
+        ],
+        "text": "Section regarding the **recognition** of the software",
+        "title": "Recognition",
+        "uuid": "87f6b5db-1f0e-4ba9-a7cb-82ec050bb4cf"
+      },
+      {
+        "annotations": [],
+        "questionUuids": [
+          "d95ac6aa-e3b8-4591-a91f-f00c3193d5a7",
+          "b3c5ce60-1607-47d0-9c79-870350fa31a8"
+        ],
+        "text": "Section regarding the **testing** of the software",
+        "title": "Testing",
+        "uuid": "968db515-1a6d-4518-97fa-810a9fca7dff"
+      },
+      {
+        "annotations": [],
+        "questionUuids": [
+          "78e2cd17-1d97-4a14-80f4-de6c9cac0ef7",
+          "d60fe27f-5fdc-4182-87de-17e8509aaef2",
+          "074948ac-4abb-4438-bd96-e420b10164f4"
+        ],
+        "text": "Section regarding the **interoperability** of the software",
+        "title": "Interoperability",
+        "uuid": "c66003a5-1a4d-49ea-8f3b-c31321e7956e"
+      },
+      {
+        "annotations": [],
+        "questionUuids": [
+          "9b590484-9b76-4a94-8fed-22dd33f7a302",
+          "23538b8f-de09-4143-98d5-a234ea5144b8"
+        ],
+        "text": "Section regarding the **versioning** of the software",
+        "title": "Versioning",
+        "uuid": "e4daf4a0-4024-4427-98e6-5e40fb21765c"
+      }
+    ],
+    "createdAt": "2024-09-16T08:39:05.050659275Z",
+    "metrics": [],
+    "totalReport": {
+      "indications": [
+        {
+          "answeredQuestions": 21,
+          "indicationType": "PhasesAnsweredIndication",
+          "unansweredQuestions": 0
+        },
+        {
+          "answeredQuestions": 55,
+          "indicationType": "AnsweredIndication",
+          "unansweredQuestions": 7
+        }
+      ],
+      "metrics": []
+    },
+    "updatedAt": "2024-09-16T08:39:05.050659275Z",
+    "uuid": "8249aebd-fd0a-4261-8f59-d299a578de89"
+  },
+  "users": [
+    {
+      "perms": [
+        "VIEW",
+        "COMMENT",
+        "EDIT",
+        "ADMIN"
+      ],
+      "user": {
+        "active": true,
+        "affiliation": null,
+        "createdAt": "2024-09-16T08:15:07.419477076Z",
+        "email": "yaoban@unimelb.edu.au",
+        "firstName": "Yao-Ban",
+        "imageUrl": null,
+        "lastName": "Chan",
+        "permissions": [
+          "PM_READ_PERM",
+          "QTN_PERM",
+          "DOC_TML_READ_PERM",
+          "SUBM_PERM"
+        ],
+        "role": "researcher",
+        "sources": [
+          "ls-login"
+        ],
+        "updatedAt": "2024-09-16T08:15:07.419477076Z",
+        "uuid": "e66efa43-921c-42a1-8bb2-65d5636c2c0f"
+      }
+    }
+  ]
+}
